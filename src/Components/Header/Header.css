@@ -24,9 +24,9 @@
 @media (max-width: 600px) 
 and (-webkit-min-device-pixel-ratio: 2){
   .App-header {
-    background-color: #1f4faf;
+    /* background-color: #1f4faf; */
     height: 20vh;
-    min-height: 52vh;
+    min-height: 50vh;
   }
   .container{
     font-size: xx-small;
@@ -40,6 +40,6 @@ and (-webkit-min-device-pixel-ratio: 2){
   }
   .animated-div{
     position: absolute;
-    top: 27%;
+    top: 45%;
   }
 }
