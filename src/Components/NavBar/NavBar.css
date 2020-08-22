@@ -24,3 +24,8 @@
   width: 100%;
   justify-content: space-around;
 }
+
+@media (max-width: 600px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  
+}

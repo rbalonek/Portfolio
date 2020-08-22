@@ -6,7 +6,7 @@ import { Fade, Rotate, Flip, Zoom } from "react-awesome-reveal";
 
 export default function BackEndSkills() {
   return (
-    <div>
+    <div className="container">
       <Zoom>
     <div className="div-animate">
       <Rotate>

@@ -6,7 +6,7 @@ import {Animated} from "react-animated-css";
 
 export default function Header() {
   return (
-    <div>
+    <div className="container">
     <header className="App-header">
     <h1>Robert Balonek</h1>
     <h2>Software Engineer</h2>
