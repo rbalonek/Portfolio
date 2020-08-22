@@ -1,5 +1,5 @@
 .restaurant-container {
-  background-color: #f2f2f3;
+  background-color: #c9c9d2;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   display: flex;
   justify-content: space-between;
@@ -9,9 +9,42 @@
   display: flex;
   flex-direction: row;
   border-radius: 15%;
+  height: 350px;
 }
 
 .restaurant-app-title {
   color: wheat;
   text-align: center;
+}
+.text-restaurant-app{
+  background-color: #f2f2f3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 20px;
+    height: min-content;
+    align-self: center;
+}
+.p-restaurant-app{
+  margin: 10px;
+  font-family: 'Gill Sans';
+}
+.github-icon{
+  height:50px;
+  border-radius:60%;
+}
+.github-icon:hover{
+  transform: scale(1.3);
+  transition: 250ms all;
+}
+.website-icon{
+  height:50px;
+  border-radius: 90%;
+}
+.website-icon:hover{
+  transform: scale(1.3);
+  transition: 250ms all;
+}
+.icon-div{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
 }

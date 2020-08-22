@@ -9,7 +9,7 @@ import FrontEndSkills from "./Components/MySkills/FrontEndSkills"
 import RestaurantApp from "./Components/Projects/RestaurantApp/RestaurantApp"
 
 //Fake Content
-import FakeContent from "./Components/FakeContent/FakeContent";
+// import FakeContent from "./Components/FakeContent/FakeContent";
 import EmptySpace from "./Components/FakeContent/EmptySpace"
 
 
@@ -28,6 +28,7 @@ function App() {
       </div>
       <EmptySpace />
       <h1 className="my-title">My Projects</h1>
+      <RestaurantApp />
       <RestaurantApp />
     </div>
   );
