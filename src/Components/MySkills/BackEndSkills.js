@@ -25,7 +25,7 @@ export default function BackEndSkills() {
         <p>NodeJS</p>
         <p>Ruby/Rails</p>
         <p>SQL</p>
-        <p>Expres</p>
+        <p>Express</p>
       </Fade>
       </div>
       </Zoom>
