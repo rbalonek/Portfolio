@@ -1,11 +1,25 @@
-.nav-bar {
-  display: flex;
-  background-color: blue;
-  opacity: .8;
-}
-.container {
-  color: white;
+.navbar{
   width: 100%;
+  max-width: 100%;
+  min-height: 6vh;
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  transition: all 2s ease;
+ 
+}
+
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+}
+
+.navigation{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
