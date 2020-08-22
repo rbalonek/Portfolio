@@ -24,7 +24,7 @@
 @media (max-width: 600px) 
 and (-webkit-min-device-pixel-ratio: 2){
   .App-header {
-    /* background-color: #1f4faf; */
+    background-color: #1f4faf;
     height: 20vh;
     min-height: 52vh;
   }
