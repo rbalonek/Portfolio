@@ -6,7 +6,7 @@ const Navbar=() => {
 
   const handleScroll=() => {
     const offset=window.scrollY;
-    if(offset > 325 ){
+    if(offset > 400 ){
       setScrolled(true);
     }
     else{
