@@ -1,0 +1,17 @@
+.restaurant-container {
+  background-color: #f2f2f3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.img-restarant-app {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15%;
+}
+
+.restaurant-app-title {
+  color: wheat;
+  text-align: center;
+}

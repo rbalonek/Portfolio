@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header"
 import NavBar from "./Components/NavBar/NavBar";
 import BackEndSkills from "./Components/MySkills/BackEndSkills"
 import FrontEndSkills from "./Components/MySkills/FrontEndSkills"
+import RestaurantApp from "./Components/Projects/RestaurantApp/RestaurantApp"
 
 //Fake Content
 import FakeContent from "./Components/FakeContent/FakeContent";
@@ -26,8 +27,8 @@ function App() {
       <FrontEndSkills />
       </div>
       <EmptySpace />
-      <h2 className="my-title">My Projects</h2>
-      <FakeContent />
+      <h1 className="my-title">My Projects</h1>
+      <RestaurantApp />
     </div>
   );
 }
