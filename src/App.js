@@ -21,11 +21,12 @@ function App() {
       <NavBar />
       <EmptySpace />
       <div className="skills-div">
-      <BackEndSkills />
+        <BackEndSkills />
+        <h2 className="my-title">My Skills</h2>
       <FrontEndSkills />
       </div>
-      <FakeContent />
-      <FakeContent />
+      <EmptySpace />
+      <h2 className="my-title">My Projects</h2>
       <FakeContent />
     </div>
   );
