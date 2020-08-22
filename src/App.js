@@ -7,6 +7,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import BackEndSkills from "./Components/MySkills/BackEndSkills"
 import FrontEndSkills from "./Components/MySkills/FrontEndSkills"
 import RestaurantApp from "./Components/Projects/RestaurantApp/RestaurantApp"
+import Footer from "./Components/Footer/Footer"
 
 //Fake Content
 // import FakeContent from "./Components/FakeContent/FakeContent";
@@ -30,6 +31,7 @@ function App() {
       <h1 className="my-title">My Projects</h1>
       <RestaurantApp />
       <RestaurantApp />
+      <Footer />
     </div>
   );
 }

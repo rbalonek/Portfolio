@@ -1,0 +1,16 @@
+.footer-container{
+  background-color: black;
+  height: 15vh;
+}
+
+.footer-button{
+height:50px;
+border-radius: 70%;
+box-shadow: 0 2px 4px rgba(173, 45, 45, 0.5);
+}
+
+.footer-button:hover{
+  transform: scale(1.3);
+  transition: 250ms all;
+  transition: all .2s ease;
+}
