@@ -2,6 +2,7 @@ import React from 'react'
 import "./Header.css"
 
 //Animation
+import { Fade, Rotate, Flip, Zoom, Slide, JackInTheBox, Hinge } from "react-awesome-reveal";
 import {Animated} from "react-animated-css";
 
 export default function Header() {
@@ -10,15 +11,14 @@ export default function Header() {
     <header className="App-header">
     <h1>Robert Balonek</h1>
     <h2>Software Engineer</h2>
-    <div className="animated-div">
-      <Animated
-      animationInDelay={1300}
-      className="animation-delay"
-      animationIn="hinge"
-      animationInDuration={1500}
-      isVisible={true}>
-    <h3 className="animated-hinge">Expert</h3>
-</Animated>
+        <div className="animated-div">
+          <Hinge
+            triggerOnce
+            delay={1000}
+            duration={1500}
+          >
+            <h3 className="animated-hinge">Expert</h3>
+            </Hinge>
 </div>
   </header>
     </div>

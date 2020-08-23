@@ -2,7 +2,7 @@ import React from 'react'
 import "./RestaurantApp.css"
 
 //effects
-import { Fade, Rotate, Flip, Zoom, Slide, JackInTheBox } from "react-awesome-reveal";
+import { Fade, Rotate, Flip, Zoom, Slide, JackInTheBox, Hinge } from "react-awesome-reveal";
 
 export default function RestaurantApp() {
   return (
@@ -13,7 +13,9 @@ export default function RestaurantApp() {
       <img className="img-restarant-app" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127072/Portfolio%20Pics/CellPhonePreview1_stuvob.png" alt=""/>
       </JackInTheBox>
         <div className="text-restaurant-app">
-          <Fade>
+          <Fade
+          cascade
+          >
           <p className="p-restaurant-app">This is my Unit 2 project for the General Assembly Software Engineering Immersive.</p>
           <p className="p-restaurant-app"> We were given 4 days to come up with an idea for an app to implement full CRUD  capabilities after 2 weeks of instruction on implementation.</p>
           <p className="p-restaurant-app">The admin of this restaurant app is able to log into their back-end to Create, Edit, and delete menu items. The edits will reflect the "Main Menu" screen so the guests will be able to add menu items to their bill.</p>

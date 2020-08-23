@@ -17,7 +17,9 @@ export default function BackEndSkills() {
         />
       </Rotate>
 
-      <Flip direction="horizontal">
+          <Flip
+            direction="horizontal"
+          >
         <h1>Back End</h1>
       </Flip>
 
