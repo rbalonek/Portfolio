@@ -1,0 +1,33 @@
+.cocktail-helper-container {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+}
+.content-cocktail-helper {
+  background-color: #c9c9d2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.text-card-cocktail {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 80%;
+  width: 80%;
+  align-self: center;
+  margin: auto;
+  text-align: center;
+}
+
+.cocktail-app-title {
+  color: wheat;
+  text-align: center;
+}
+.cocktail-img {
+  width: 50%;
+}
+.cocktail-description {
+  width: 100%;
+  background-color: red;
+}

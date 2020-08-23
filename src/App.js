@@ -7,6 +7,8 @@ import NavBar from "./Components/NavBar/NavBar";
 import BackEndSkills from "./Components/MySkills/BackEndSkills"
 import FrontEndSkills from "./Components/MySkills/FrontEndSkills"
 import RestaurantApp from "./Components/Projects/RestaurantApp/RestaurantApp"
+import CocktailHelper from './Components/Projects/CocktailHelper/CocktailHelper'
+import AboutMe from "./Components/AboutMe/AboutMe"
 import Footer from "./Components/Footer/Footer"
 
 //Fake Content
@@ -30,7 +32,11 @@ function App() {
       <EmptySpace />
       <h1 className="my-title">My Projects</h1>
       <RestaurantApp />
-      <RestaurantApp />
+      <EmptySpace />
+      <CocktailHelper />
+      <EmptySpace />
+      <AboutMe />
+      <EmptySpace />
       <Footer />
     </div>
   );
