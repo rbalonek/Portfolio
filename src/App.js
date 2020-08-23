@@ -11,6 +11,9 @@ import CocktailHelper from './Components/Projects/CocktailHelper/CocktailHelper'
 import AboutMe from "./Components/AboutMe/AboutMe"
 import Footer from "./Components/Footer/Footer"
 
+//Effects
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 //Fake Content
 // import FakeContent from "./Components/FakeContent/FakeContent";
 import EmptySpace from "./Components/FakeContent/EmptySpace"
@@ -24,20 +27,32 @@ function App() {
       <Header />
       <NavBar />
       <EmptySpace />
+      <section id='skills'>
       <div className="skills-div">
         <BackEndSkills />
-        <h2 className="my-title">My Skills</h2>
+        <h1 className="my-title">My Skills</h1>
       <FrontEndSkills />
-      </div>
+        </div>
+      </section>
+      
       <EmptySpace />
-      <h1 className="my-title">My Projects</h1>
+
+      <section id='projects'>
+        <h1 className="my-title">My Projects</h1>
       <RestaurantApp />
       <EmptySpace />
-      <CocktailHelper />
+        <CocktailHelper />
+        <EmptySpace />
+      </section>
+      
+      <section id='about'>
+        <AboutMe />
+      </section>
+      
       <EmptySpace />
-      <AboutMe />
-      <EmptySpace />
-      <Footer />
+      <section id='contact'>
+        <Footer />
+        </section>
     </div>
   );
 }

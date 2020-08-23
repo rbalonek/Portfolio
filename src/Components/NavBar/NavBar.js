@@ -1,40 +1,51 @@
-import React,{useEffect} from 'react';
-import './NavBar.css';
+import React, { useEffect } from "react";
+import "./NavBar.css";
 
-const Navbar=() => {
-  const [scrolled,setScrolled]=React.useState(false);
+//Effects
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
-  const handleScroll=() => {
-    const offset=window.scrollY;
-    if(offset > 400 ){
+const Navbar = () => {
+  const [scrolled, setScrolled] = React.useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 400) {
       setScrolled(true);
-    }
-    else{
+    } else {
       setScrolled(false);
     }
-  }
+  };
   useEffect(() => {
-    window.addEventListener('scroll',handleScroll)
-  })
+    window.addEventListener("scroll", handleScroll);
+  });
 
-  let x=['navbar'];
-  if(scrolled){
-    x.push('scrolled');
+  let x = ["navbar"];
+  if (scrolled) {
+    x.push("scrolled");
   }
   return (
     <header className={x.join(" ")}>
+      <nav className="navigation">
         
+        <AnchorLink offset='100' href="#skills">
+          <p>Skills</p>
+        </AnchorLink>
 
-        <nav className="navigation">
-              <p>Skills</p>
-              <p>Projects</p>
-              <p>About</p>
-              <p>Contact</p>
-          
-        </nav>
-
+        <AnchorLink offset='100' href="#projects">
+          <p>Projects</p>
+        </AnchorLink>
+        
+        <AnchorLink offset='100' href="#about">
+          <p>About</p>
+        </AnchorLink>
+        
+        <AnchorLink offset='100' href="#contact">
+          <p>Contact</p>
+        </AnchorLink>
+        
+      </nav>
     </header>
-  )
+  );
 };
 
 export default Navbar;

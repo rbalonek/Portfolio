@@ -16,6 +16,7 @@ a {
 .my-title{
   color:white;
   align-self: center;
+  text-align: center;
 }
 
 @media (max-width: 600px){
