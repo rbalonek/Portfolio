@@ -3,6 +3,7 @@
   height: 15vh;
   display: flex;
   align-items: center;
+  place-content: space-evenly;
 }
 
 .footer-button {
