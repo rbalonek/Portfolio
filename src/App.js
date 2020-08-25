@@ -7,6 +7,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import BackEndSkills from "./Components/MySkills/BackEndSkills"
 import FrontEndSkills from "./Components/MySkills/FrontEndSkills"
 import RestaurantApp from "./Components/Projects/RestaurantApp/RestaurantApp"
+import TrinityPlace from "./Components/Projects/TrinityPlace/TrinityPlace"
 import CocktailHelper from './Components/Projects/CocktailHelper/CocktailHelper'
 import FunCarousel from "./Components/Projects/FunCarousel/FunCarousel"
 import AboutMe from "./Components/AboutMe/AboutMe"
@@ -41,7 +42,9 @@ function App() {
       <section id='projects'>
         <h1 className="my-title">My Projects</h1>
       <RestaurantApp />
-      <EmptySpace />
+        <EmptySpace />
+        <TrinityPlace />
+        <EmptySpace />
         <CocktailHelper />
         <EmptySpace />
       </section>
