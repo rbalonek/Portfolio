@@ -1,3 +1,10 @@
+.light-mode{
+color: yellow;
+}
+.dark-mode{
+color: blue;
+}
+
 .img-animate {
   border-radius: 20%;
   width: 100px;
@@ -43,6 +50,8 @@ and (-webkit-min-device-pixel-ratio: 2){
     top: 45%;
   }
 }
+
+
 @media only screen 
     and (device-width: 375px) 
     and (device-height: 812px) 
@@ -53,3 +62,6 @@ and (-webkit-min-device-pixel-ratio: 2){
       }
 
     }
+
+
+    
