@@ -48,3 +48,26 @@
   justify-content: space-between;
   background-color: black;
 }
+
+/* MY CELL PHONE SIZE */
+@media (max-width: 414px){
+  .restaurant-container {
+    height: 600px;
+}
+  .img-restarant-app {
+    height: 150px;
+}
+.text-restaurant-app {
+  position: relative;
+  top: 80px;
+  margin:0;
+}
+#left-restaurant-app{
+  position: relative;
+  left: 100px;
+}
+#right-restaurant-app{
+  position: relative;
+  right: 100px;
+}
+}

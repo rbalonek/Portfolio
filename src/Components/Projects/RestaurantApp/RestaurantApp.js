@@ -10,15 +10,16 @@ export default function RestaurantApp() {
       <h1 className="restaurant-app-title">Restaurant-App</h1>
       <div className="restaurant-container">
         <JackInTheBox>
-      <img className="img-restarant-app" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127072/Portfolio%20Pics/CellPhonePreview1_stuvob.png" alt=""/>
-      </JackInTheBox>
+      <img className="img-restarant-app" id="left-restaurant-app" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127072/Portfolio%20Pics/CellPhonePreview1_stuvob.png" alt=""/>
+        </JackInTheBox>
+        
         <div className="text-restaurant-app">
           <Fade
           cascade
           >
           <p className="p-restaurant-app">This app was created in 4 days for our project for the General Assembly Software Engineering Immersive to implement full CRUD  capabilities.</p>
-          <p className="p-restaurant-app"> The idea is a guest will be able to scan the QR code on the table and view / order from the menu without needing to call over the server. </p>
-          <p className="p-restaurant-app">The admin of this restaurant app is able to log into their back-end to Create, Edit, and delete menu items. The edits will reflect the "Main Menu" screen so the guests will be able to add menu items to their bill.</p>
+          <p className="p-restaurant-app"> The app is designed so a guest will be able to scan the QR code on the table and view / order from the menu without needing to call over the server. </p>
+          <p className="p-restaurant-app">The admin of this restaurant app is able to log into their password-protected back-end to Create, Edit, and delete menu items. The edits will reflect the "Main Menu" screen so the guests will be able to add menu items to their bill.</p>
           </Fade>
           <div className="icon-div">
           <a  target="_blank" rel="noopener noreferrer" href="https://github.com/rbalonek/Restaurant-App">
@@ -30,7 +31,7 @@ export default function RestaurantApp() {
             </div>
           </div>
         <JackInTheBox>
-        <img className="img-restarant-app" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127073/Portfolio%20Pics/CellPhonePreview2_ot50f8.png" alt="" />
+        <img className="img-restarant-app" id="right-restaurant-app" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127073/Portfolio%20Pics/CellPhonePreview2_ot50f8.png" alt="" />
         </JackInTheBox>
       </div>
       </div>
