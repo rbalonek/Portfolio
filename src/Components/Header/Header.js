@@ -33,9 +33,12 @@ export default function Header() {
             </Hinge>
 </div>
       </header>
-      <button
-      onClick={clicker}
-      >Light Mode</button>
+     
     </div>
   )
 }
+
+
+// <button
+// onClick={clicker}
+// >Light Mode</button>

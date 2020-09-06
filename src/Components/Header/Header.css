@@ -2,7 +2,7 @@
 color: yellow;
 }
 .dark-mode{
-color: blue;
+color: white;
 }
 
 .img-animate {
@@ -27,13 +27,12 @@ color: blue;
   top: 30%;
 }
 
-
-@media (max-width: 600px) 
-and (-webkit-min-device-pixel-ratio: 2){
+/* MY CELL PHONE SIZE */
+@media (max-width: 414px){
   .App-header {
     /* background-color: #1f4faf; */
     height: 20vh;
-    min-height: 50vh;
+    min-height: 48vh;
   }
   .container{
     font-size: xx-small;
@@ -46,8 +45,8 @@ and (-webkit-min-device-pixel-ratio: 2){
     height: auto;
   }
   .animated-div{
-    position: absolute;
-    top: 45%;
+    position: relative;
+    top: -100px;
   }
 }
 
