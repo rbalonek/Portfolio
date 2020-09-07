@@ -23,7 +23,12 @@ export default function FrontEndSkills() {
 
           <Fade cascade>
             <p>HTML</p>
-            <p>CSS</p>
+            <div id="css-div">
+              <p>CSS</p>
+              <span id="css-element">
+                BEM, Tailwind, flexbox, grid, responsive, animation, bulma
+              </span>
+            </div>
             <p>JavaScript</p>
             <p>ReactJS</p>
           </Fade>

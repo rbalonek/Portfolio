@@ -18,7 +18,7 @@
 }
 .text-restaurant-app{
   background-color: #f2f2f3;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 2px 5px 3px 0 rgba(0,0,0,.5);
     margin: 20px;
     height: min-content;
     align-self: center;
@@ -30,14 +30,18 @@
 .github-icon{
   height:50px;
   border-radius:60%;
+  position: relative;
+  top: 10px;
 }
 .github-icon:hover{
   transform: scale(1.3);
   transition: 250ms all;
 }
 .website-icon{
-  height:50px;
+  height: 40px;
   border-radius: 90%;
+  position: relative;
+  top: 15px;
 }
 .website-icon:hover{
   transform: scale(1.3);
@@ -47,4 +51,63 @@
   display: flex;
   justify-content: space-between;
   background-color: black;
+}
+/* First maj responsive issue */
+@media (max-width: 600px){
+  .text-restaurant-app {
+    font-size: small;
+}
+
+}
+
+/* MY CELL PHONE SIZE */
+@media (max-width: 414px){
+  .restaurant-container {
+    height: 600px;
+}
+  .img-restarant-app {
+    height: 150px;
+}
+.text-restaurant-app {
+  position: relative;
+  top: 80px;
+  margin:0;
+}
+#left-restaurant-app{
+  position: relative;
+  left: 100px;
+}
+#right-restaurant-app{
+  position: relative;
+  right: 100px;
+}
+.img-restarant-app:hover{
+  transform: scale(1.9);
+}
+}
+
+/* Iphone 6/7/8 CHECK Iphonex 375 */
+@media (max-width: 378px){
+  .img-restarant-app:hover{
+    transform: scale(1.4);
+  }
+}
+
+/* Iphone 5/SE */
+@media (max-width: 320px){
+  .text-restaurant-app {
+    position: relative;
+    top: 80px;
+    margin: 0;
+    font-size: small;
+}
+#left-restaurant-app {
+  left: 50px;
+}
+#right-restaurant-app {
+  right: 50px;
+}
+.img-restarant-app:hover{
+  transform: scale(1.5);
+}
 }

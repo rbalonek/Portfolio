@@ -1,3 +1,10 @@
+.light-mode{
+color: yellow;
+}
+.dark-mode{
+color: white;
+}
+
 .img-animate {
   border-radius: 20%;
   width: 100px;
@@ -20,13 +27,19 @@
   top: 30%;
 }
 
+/*               RESPONSIVE      */
+/* First maj responsive issue */
+@media (max-width: 650px){
 
-@media (max-width: 600px) 
-and (-webkit-min-device-pixel-ratio: 2){
+
+}
+
+/* MY CELL PHONE SIZE */
+@media (max-width: 414px){
   .App-header {
     /* background-color: #1f4faf; */
     height: 20vh;
-    min-height: 50vh;
+    min-height: 48vh;
   }
   .container{
     font-size: xx-small;
@@ -39,10 +52,12 @@ and (-webkit-min-device-pixel-ratio: 2){
     height: auto;
   }
   .animated-div{
-    position: absolute;
-    top: 45%;
+    position: relative;
+    top: -100px;
   }
 }
+
+
 @media only screen 
     and (device-width: 375px) 
     and (device-height: 812px) 
@@ -53,3 +68,22 @@ and (-webkit-min-device-pixel-ratio: 2){
       }
 
     }
+
+/* Iphone 6/7/8 CHECK Iphonex 375 */
+@media (max-width: 378px){
+  .App-header {
+    min-height: 60vh;
+  }
+}
+
+/* Iphone 5/SE */
+@media (max-width: 320px){
+  .animated-div{
+    top: -90px;
+  }
+  .App-header {
+    min-height: 79vh;
+  }
+}
+
+    
