@@ -50,11 +50,11 @@ export default function CocktailHelper() {
         <Slide>
           <div className="content-cocktail-helper">
             <div className="text-card-cocktail">
-              <p>
-                The Cocktail-App is my first project for the General Assembly
+              <p className="cocktail-text">
+                The Cocktail-App was my first project for the General Assembly
                 Software Engineer Immersive.
               </p>
-              <p>
+              <p className="cocktail-text">
                 I used API calls to pull up cocktail recipes for any kind of
                 liquor you have handy.
               </p>
