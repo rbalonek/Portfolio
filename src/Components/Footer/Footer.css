@@ -13,6 +13,7 @@
   box-shadow: 0 2px 4px rgba(173, 45, 45, 0.5);
   display: flex;
   align-self: center;
+  /* background-color: black; */
 }
 
 .footer-button:hover {
