@@ -30,14 +30,18 @@
 .github-icon{
   height:50px;
   border-radius:60%;
+  position: relative;
+  top: 10px;
 }
 .github-icon:hover{
   transform: scale(1.3);
   transition: 250ms all;
 }
 .website-icon{
-  height:50px;
+  height: 40px;
   border-radius: 90%;
+  position: relative;
+  top: 15px;
 }
 .website-icon:hover{
   transform: scale(1.3);
