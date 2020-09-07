@@ -72,7 +72,6 @@
   }
   .img-trinity-app:hover{
     transform: scale(3);
-    -ms-transform: translate(50px);
   }
   
   .img-trinity-app-right:hover{

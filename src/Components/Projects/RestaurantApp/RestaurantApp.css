@@ -74,4 +74,7 @@
   position: relative;
   right: 100px;
 }
+.img-restarant-app:hover{
+  transform: scale(1.9);
+}
 }
