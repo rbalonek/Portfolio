@@ -13,7 +13,6 @@
 }
 .text-card-trinity-place {
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 80%;
   width: 80%;
   align-self: center;
@@ -22,6 +21,9 @@
   height: fit-content;
   padding-right: 5px;
     padding-left: 5px;
+    box-shadow: 2px 5px 3px 0 rgba(0,0,0,.5);
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .trinity-place-title {
