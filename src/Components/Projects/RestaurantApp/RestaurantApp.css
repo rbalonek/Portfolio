@@ -52,6 +52,13 @@
   justify-content: space-between;
   background-color: black;
 }
+/* First maj responsive issue */
+@media (max-width: 600px){
+  .text-restaurant-app {
+    font-size: small;
+}
+
+}
 
 /* MY CELL PHONE SIZE */
 @media (max-width: 414px){
@@ -76,5 +83,31 @@
 }
 .img-restarant-app:hover{
   transform: scale(1.9);
+}
+}
+
+/* Iphone 6/7/8 CHECK Iphonex 375 */
+@media (max-width: 378px){
+  .img-restarant-app:hover{
+    transform: scale(1.4);
+  }
+}
+
+/* Iphone 5/SE */
+@media (max-width: 320px){
+  .text-restaurant-app {
+    position: relative;
+    top: 80px;
+    margin: 0;
+    font-size: small;
+}
+#left-restaurant-app {
+  left: 50px;
+}
+#right-restaurant-app {
+  right: 50px;
+}
+.img-restarant-app:hover{
+  transform: scale(1.5);
 }
 }

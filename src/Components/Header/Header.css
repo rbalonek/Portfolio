@@ -27,6 +27,13 @@ color: white;
   top: 30%;
 }
 
+/*               RESPONSIVE      */
+/* First maj responsive issue */
+@media (max-width: 650px){
+
+
+}
+
 /* MY CELL PHONE SIZE */
 @media (max-width: 414px){
   .App-header {
@@ -62,5 +69,21 @@ color: white;
 
     }
 
+/* Iphone 6/7/8 CHECK Iphonex 375 */
+@media (max-width: 378px){
+  .App-header {
+    min-height: 60vh;
+  }
+}
+
+/* Iphone 5/SE */
+@media (max-width: 320px){
+  .animated-div{
+    top: -90px;
+  }
+  .App-header {
+    min-height: 79vh;
+  }
+}
 
     

@@ -45,6 +45,13 @@
   display:none;
 }
 
+/*               RESPONSIVE      */
+/* First maj responsive issue */
+@media (max-width: 650px){
+
+
+}
+
 /* MY CELL PHONE SIZE */
 @media (max-width: 414px) {
   .content-trinity-place {
@@ -72,6 +79,34 @@
   }
   .img-trinity-app:hover{
     transform: scale(3);
+  }
+  
+  .img-trinity-app-right:hover{
+    transform: scale(3);
+    
+  }
+}
+/* Iphone 6/7/8 CHECK Iphonex 375 */
+@media (max-width: 378px){
+  .img-trinity-app-right{
+    top: -100px;
+    left: 75px;
+  }
+}
+
+/* Iphone 5/SE */
+
+@media (max-width: 320px){
+  .img-trinity-app {
+    top: -100px;
+    left: 30px;
+  }
+  .img-trinity-app-right{
+    top: -100px;
+    left: 50px;
+  }
+  .img-trinity-app:hover{
+    transform: scale(2);
   }
   
   .img-trinity-app-right:hover{
