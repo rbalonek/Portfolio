@@ -16,10 +16,10 @@ export default function TrinityPlace() {
       </a>
       </div>
     
-    <div className="trinity-place-container">
+      <div className="trinity-place-container">
+       
       <img className="trinity-place-img" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598326354/Portfolio%20Pics/trinityPlaceShelter_srxffl.png" alt=""/>
-      
-      <Slide>
+    <Slide>
         <div className="content-trinity-place">
           <div className="text-card-trinity-place">
          
@@ -28,10 +28,12 @@ export default function TrinityPlace() {
               <p> I was the "team leader" so I controlled the github project flow using their build in project board. </p>
               <p> We added an "admin" screen to show full CRUD capabilities with the "volunteer" form.</p>
               <p> Our team hopes to continue working with the UX team to finish the rest of the screens for this project and donate the site to Trinity Place Shelter. </p>
-      </div>  
-      </div>
-      </Slide>
+            </div>  
+            </div>
+        </Slide>
     </div>
+      <img className="img-trinity-app" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-1_e2d9xi.png" alt="" />
+      <img className="img-trinity-app-right" src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-2_gx7ytc.png" alt="" />
     </div>
   )
 }
