@@ -1,5 +1,5 @@
 import React from "react";
-import "./TrinityPlace.css";
+import "./OperaSingerSearch.css";
 
 import {
   Fade,
@@ -11,14 +11,14 @@ import {
   Hinge,
 } from "react-awesome-reveal";
 
-export default function TrinityPlace() {
+export default function OperaSingerSearch() {
   return (
     <div>
       <div className="icon-div">
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/rbalonek/trinity-place-shelter"
+          href="https://github.com/rbalonek/opera-singer-search"
         >
           <img
             className="github-icon"
@@ -26,11 +26,11 @@ export default function TrinityPlace() {
             alt=""
           />
         </a>
-        <h1 className="trinity-place-title">Trinity Place Shelter</h1>
+        <h1 className="singer-search-app-title">Opera-Singer-Search</h1>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://trinity-place-shelter.netlify.app/"
+          href="https://opera-singer-search.netlify.app/operas"
         >
           <img
             className="website-icon"
@@ -40,55 +40,35 @@ export default function TrinityPlace() {
         </a>
       </div>
 
-      <div className="trinity-place-container">
+      <div className="singer-search-container">
         <img
-          className="trinity-place-img"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598326354/Portfolio%20Pics/trinityPlaceShelter_srxffl.png"
-          alt=""
+          className="img-singer-search-app"
+          alt="singer-app-img"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1600955219/Portfolio%20Pics/Singer-searchOpera_yyswl8.png"
         />
+
         <Slide>
-          <div className="content-trinity-place">
-            <div className="text-card-trinity-place">
-              <p>
-                {" "}
-                Trinity Place Shelter was my first project working with a UX
-                team and multiple developers.{" "}
+          <div className="content-singer-search">
+            <div className="text-card-singer-search">
+              <p className="singer-search-text">
+                Opera-Singer-Search is a full stack application using a Rails
+                back end and React front end with fully functioning user
+                authentication.
               </p>
-              <p>
-                {" "}
-                Our team was given a design and 4 days to make a responsive
-                website that also had full CRUD capabilities.
+              <p className="singer-search-text">
+                Singers can register / login and add opera roles to their resume
+                so when you click on an opera, the singers name will appear
+                under the 'roles' tab.
               </p>
-              <p>
-                {" "}
-                I was the "team leader" so I controlled the github project flow
-                using the github built in project board.{" "}
-              </p>
-              <p>
-                {" "}
-                We added an "admin" screen to show full CRUD capabilities with
-                the "volunteer" form.
-              </p>
-              <p>
-                {" "}
-                Our team hopes to continue working with the UX team to finish
-                the rest of the screens for this project and donate the site to
-                Trinity Place Shelter.{" "}
+              <p className="singer-search-text">
+                Singers can also create, update, and destroy blog-style "recent
+                performances" on their "singer page" and it will appear on their
+                "profile" page.
               </p>
             </div>
           </div>
         </Slide>
       </div>
-      <img
-        className="img-trinity-app"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-1_e2d9xi.png"
-        alt=""
-      />
-      <img
-        className="img-trinity-app-right"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-2_gx7ytc.png"
-        alt=""
-      />
     </div>
   );
 }
