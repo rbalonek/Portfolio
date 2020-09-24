@@ -19,6 +19,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 //Fake Content
 // import FakeContent from "./Components/FakeContent/FakeContent";
 import EmptySpace from "./Components/FakeContent/EmptySpace"
+import ProjectShell from "./Components/Projects/ProjectShell/ProjectShell.jsx"
 
 
 
