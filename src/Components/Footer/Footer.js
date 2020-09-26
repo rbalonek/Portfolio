@@ -1,6 +1,17 @@
 import React from "react";
 import "./Footer.css";
 
+import {
+  Fade,
+  Rotate,
+  Flip,
+  Zoom,
+  Slide,
+  JackInTheBox,
+  Hinge,
+  Pulse,
+} from "react-awesome-reveal";
+
 export default function Footer() {
   return (
     <div className="footer-container">
@@ -15,19 +26,19 @@ export default function Footer() {
           alt=""
         />
       </a>
-
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="mailto:roebrtbalonek@gmail.com?"
-      >
-        <img
-          className="footer-button"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHsyZ2dWlpBwo0rcs84CH7E_9NK9QamE-i8Q&usqp=CAU"
-          alt=""
-        />
-      </a>
-
+      <Zoom>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="mailto:roebrtbalonek@gmail.com?"
+        >
+          <img
+            className="footer-button"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHsyZ2dWlpBwo0rcs84CH7E_9NK9QamE-i8Q&usqp=CAU"
+            alt=""
+          />
+        </a>
+      </Zoom>
       <a
         target="_blank"
         rel="noopener noreferrer"

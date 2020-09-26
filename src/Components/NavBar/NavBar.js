@@ -10,6 +10,7 @@ const Navbar = () => {
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 400) {
+      //400
       setScrolled(true);
     } else {
       setScrolled(false);
@@ -26,23 +27,21 @@ const Navbar = () => {
   return (
     <header className={x.join(" ")}>
       <nav className="navigation">
-        
-        <AnchorLink offset='100' href="#skills">
+        <AnchorLink offset="100" href="#skills">
           <p>Skills</p>
         </AnchorLink>
 
-        <AnchorLink offset='100' href="#projects">
+        <AnchorLink offset="100" href="#projects">
           <p>Projects</p>
         </AnchorLink>
-        
-        <AnchorLink offset='100' href="#about">
+
+        <AnchorLink offset="100" href="#about">
           <p>About</p>
         </AnchorLink>
-        
-        <AnchorLink offset='100' href="#contact">
+
+        <AnchorLink offset="100" href="#contact">
           <p>Contact</p>
         </AnchorLink>
-        
       </nav>
     </header>
   );
