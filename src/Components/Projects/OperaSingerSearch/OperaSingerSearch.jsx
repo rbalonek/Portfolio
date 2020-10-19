@@ -63,7 +63,7 @@ export default function OperaSingerSearch() {
               <p className="singer-search-text">
                 Singers can also create, update, and destroy blog-style "recent
                 performances" on their "singer page" and it will appear on their
-                "profile" page.
+                "profile" page. 
               </p>
             </div>
           </div>
