@@ -51,7 +51,7 @@ export default function OperaSingerSearch() {
           <div className="content-singer-search">
             <div className="text-card-singer-search">
               <p className="singer-search-text">
-                Opera-Singer-Search is a full stack application using a Rails
+                Opera-Singer-Search is a full stack application using a Ruby
                 back end and React front end with fully functioning user
                 authentication.
               </p>
