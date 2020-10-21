@@ -21,6 +21,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import EmptySpace from "./Components/FakeContent/EmptySpace";
 import ProjectShell from "./Components/Projects/ProjectShell/ProjectShell.jsx";
 import OperaSingerSearch from "./Components/Projects/OperaSingerSearch/OperaSingerSearch";
+import RbOpera from "./Components/Projects/RbOpera/RbOpera.jsx"
 
 function App() {
   return (
@@ -48,12 +49,16 @@ function App() {
         </div>
         <TrinityPlace />
         <EmptySpace />
+        <RbOpera />
+        
       </section>
+      <EmptySpace />
+      <EmptySpace />
 
       <section id="about">
         <AboutMe />
       </section>
-
+      <EmptySpace />
       <EmptySpace />
       <section id="contact">
         <Footer />
