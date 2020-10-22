@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   width: 100%;
   max-width: 100%;
   min-height: 6vh;
@@ -8,10 +8,9 @@
   align-items: center;
   background-color: #eee;
   transition: all 2s ease;
- 
 }
 
-.scrolled{
+.scrolled {
   position: fixed;
   top: 0;
   left: 0;
@@ -19,27 +18,24 @@
   z-index: 1;
 }
 
-.navigation{
+.navigation {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
-a, href {
+a,
+href {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
-@media (max-width: 600px) 
-and (-webkit-min-device-pixel-ratio: 2){
-  
+@media (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 /* Iphone 6/7/8 CHECK Iphonex 375 */
-@media (max-width: 378px){
-
+@media (max-width: 378px) {
 }
 
 /* Iphone 5/SE */
-@media (max-width: 320px){
-  
+@media (max-width: 320px) {
 }
