@@ -1,16 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-import {
-  Fade,
-  Rotate,
-  Flip,
-  Zoom,
-  Slide,
-  JackInTheBox,
-  Hinge,
-  Pulse,
-} from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 export default function Footer() {
   return (
@@ -40,18 +31,18 @@ export default function Footer() {
         </a>
       </Zoom>
       <Zoom>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1X7EtKoVqJQenhxTbU0nY5QA_Nbxy_wjN/view?usp=sharing"
-      >
-        <img
-          className="footer-button-resume"
-          src="https://e7.pngegg.com/pngimages/265/802/png-clipart-resume-computer-icons-curriculum-vitae-resume-icon-template-angle.png"
-          alt=""
-        />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1X7EtKoVqJQenhxTbU0nY5QA_Nbxy_wjN/view?usp=sharing"
+        >
+          <img
+            className="footer-button-resume"
+            src="https://e7.pngegg.com/pngimages/265/802/png-clipart-resume-computer-icons-curriculum-vitae-resume-icon-template-angle.png"
+            alt=""
+          />
         </a>
-        </Zoom>
+      </Zoom>
       <a
         target="_blank"
         rel="noopener noreferrer"

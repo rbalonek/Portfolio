@@ -1,15 +1,7 @@
 import React from "react";
 import "./RbOpera.css";
 
-import {
-  Fade,
-  Rotate,
-  Flip,
-  Zoom,
-  Slide,
-  JackInTheBox,
-  Hinge,
-} from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 export default function RbOpera() {
   return (
@@ -51,17 +43,15 @@ export default function RbOpera() {
           <div className="content-singer-search">
             <div className="text-card-singer-search">
               <p className="singer-search-text">
-                After completing my 500 hour Software Engineering Immersive, 
-                I decided to create a clone of my old opera singer wix site.
+                After completing my 500 hour Software Engineering Immersive, I
+                decided to create a clone of my old opera singer wix site.
               </p>
               <p className="singer-search-text">
                 I used React and gave myself a weekend to complete. My next plan
-                is to create a drag and drop clone of this and sell it to other 
-                performers as a cheaper alternative to wix. 
+                is to create a drag and drop clone of this and sell it to other
+                performers as a cheaper alternative to wix.
               </p>
-              <p className="singer-search-text">
-                
-              </p>
+              <p className="singer-search-text"></p>
             </div>
           </div>
         </Slide>

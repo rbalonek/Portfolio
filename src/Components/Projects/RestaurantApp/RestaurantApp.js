@@ -2,15 +2,7 @@ import React from "react";
 import "./RestaurantApp.css";
 
 //effects
-import {
-  Fade,
-  Rotate,
-  Flip,
-  Zoom,
-  Slide,
-  JackInTheBox,
-  Hinge,
-} from "react-awesome-reveal";
+import { Fade, JackInTheBox } from "react-awesome-reveal";
 
 export default function RestaurantApp() {
   return (
