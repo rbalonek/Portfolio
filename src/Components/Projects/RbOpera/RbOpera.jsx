@@ -30,7 +30,7 @@ export default function RbOpera() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="www.robertbalonek.com"
+          href="https://www.robertbalonek.com"
         >
           <img
             className="website-icon"
