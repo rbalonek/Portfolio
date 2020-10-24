@@ -19,6 +19,16 @@
 .footer-button:hover {
   transform: scale(1.3);
   transition: 250ms all;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;
 }
 
+.footer-button-resume {
+  height: 50px;
+  border-radius: 20%;
+}
+
+.footer-button-resume:hover {
+  transform: scale(1.3);
+  transition: 250ms all;
+  transition: all 0.2s ease-in-out;
+}
