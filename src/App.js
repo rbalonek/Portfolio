@@ -8,20 +8,18 @@ import BackEndSkills from "./Components/MySkills/BackEndSkills";
 import FrontEndSkills from "./Components/MySkills/FrontEndSkills";
 import RestaurantApp from "./Components/Projects/RestaurantApp/RestaurantApp";
 import TrinityPlace from "./Components/Projects/TrinityPlace/TrinityPlace";
-import CocktailHelper from "./Components/Projects/CocktailHelper/CocktailHelper";
-import FunCarousel from "./Components/Projects/FunCarousel/FunCarousel";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Footer from "./Components/Footer/Footer";
 
 //Effects
-import AnchorLink from "react-anchor-link-smooth-scroll";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 
 //Fake Content
 // import FakeContent from "./Components/FakeContent/FakeContent";
 import EmptySpace from "./Components/FakeContent/EmptySpace";
-import ProjectShell from "./Components/Projects/ProjectShell/ProjectShell.jsx";
+// import ProjectShell from "./Components/Projects/ProjectShell/ProjectShell.jsx";
 import OperaSingerSearch from "./Components/Projects/OperaSingerSearch/OperaSingerSearch";
-import RbOpera from "./Components/Projects/RbOpera/RbOpera.jsx"
+import RbOpera from "./Components/Projects/RbOpera/RbOpera.jsx";
 
 function App() {
   return (
@@ -50,7 +48,6 @@ function App() {
         <TrinityPlace />
         <EmptySpace />
         <RbOpera />
-        
       </section>
       <EmptySpace />
       <EmptySpace />

@@ -1,15 +1,7 @@
 import React from "react";
 import "./TrinityPlace.css";
 
-import {
-  Fade,
-  Rotate,
-  Flip,
-  Zoom,
-  Slide,
-  JackInTheBox,
-  Hinge,
-} from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 export default function TrinityPlace() {
   return (
