@@ -31,6 +31,7 @@
 }
 .img-singer-search-app {
   width: 50%;
+  max-width: 600px;
 }
 /*               RESPONSIVE      */
 /* First maj responsive issue */
