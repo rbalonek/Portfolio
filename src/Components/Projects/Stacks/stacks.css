@@ -28,7 +28,7 @@
   border-radius: 10%;
   height: 70px;
   position: relative;
-  top: -20px;
+  top: -10px;
 }
 
 /* Opera-Search-App */
@@ -58,5 +58,23 @@
   }
   .rbopera-stack-container {
     top: 240px;
+  }
+}
+
+@media (max-width: 375px) {
+  .rbopera-stack-container {
+    top: 150px;
+  }
+  .opera-search-stack-container {
+    top: 110px;
+  }
+}
+
+@media (max-width: 330px) {
+  .rbopera-stack-container {
+    top: 10px;
+  }
+  .opera-search-stack-container {
+    top: 25px;
   }
 }
