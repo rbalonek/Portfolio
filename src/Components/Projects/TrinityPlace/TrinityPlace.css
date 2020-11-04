@@ -38,18 +38,16 @@
   width: 100%;
   background-color: red;
 }
-.img-trinity-app{
-  display:none;
+.img-trinity-app {
+  display: none;
 }
-.img-trinity-app-right{
-  display:none;
+.img-trinity-app-right {
+  display: none;
 }
 
 /*               RESPONSIVE      */
 /* First maj responsive issue */
-@media (max-width: 650px){
-
-
+@media (max-width: 650px) {
 }
 
 /* MY CELL PHONE SIZE */
@@ -67,28 +65,29 @@
     position: relative;
     top: -100px;
     left: 50px;
-    display:unset;
+    display: unset;
   }
-  .img-trinity-app-right{
+  .img-trinity-app-right {
     border-radius: 10px;
     height: 100px;
     position: relative;
     top: -100px;
     left: 100px;
-    display:unset;
+    display: unset;
   }
-  .img-trinity-app:hover{
+  .img-trinity-app:hover {
     transform: scale(3);
+    z-index: 999;
   }
-  
-  .img-trinity-app-right:hover{
+
+  .img-trinity-app-right:hover {
     transform: scale(3);
-    
+    z-index: 999;
   }
 }
 /* Iphone 6/7/8 CHECK Iphonex 375 */
-@media (max-width: 378px){
-  .img-trinity-app-right{
+@media (max-width: 378px) {
+  .img-trinity-app-right {
     top: -100px;
     left: 75px;
   }
@@ -96,21 +95,20 @@
 
 /* Iphone 5/SE */
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
   .img-trinity-app {
     top: -100px;
     left: 30px;
   }
-  .img-trinity-app-right{
+  .img-trinity-app-right {
     top: -100px;
     left: 50px;
   }
-  .img-trinity-app:hover{
+  .img-trinity-app:hover {
     transform: scale(2);
   }
-  
-  .img-trinity-app-right:hover{
+
+  .img-trinity-app-right:hover {
     transform: scale(3);
-    
   }
 }

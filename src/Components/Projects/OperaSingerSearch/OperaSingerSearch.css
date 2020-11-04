@@ -66,6 +66,9 @@
 }
 /* Iphone 6/7/8 CHECK Iphonex 375 */
 @media (max-width: 378px) {
+  .text-card-singer-search {
+    min-height: 80px;
+  }
 }
 
 /* Iphone 5/SE */
