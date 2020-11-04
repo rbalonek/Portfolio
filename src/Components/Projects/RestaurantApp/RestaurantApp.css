@@ -5,6 +5,12 @@
   justify-content: space-between;
   width: 100%;
 }
+#left-restaurant-app {
+  z-index: 999;
+}
+#right-restaurant-app {
+  z-index: 999;
+}
 .img-restarant-app {
   display: flex;
   flex-direction: row;
@@ -60,9 +66,9 @@
 }
 
 /* MY CELL PHONE SIZE */
-@media (max-width: 414px) {
+@media (max-width: 514px) {
   .restaurant-container {
-    height: 600px;
+    height: 400px;
   }
   .img-restarant-app {
     height: 150px;

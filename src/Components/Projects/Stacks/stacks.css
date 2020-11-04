@@ -1,0 +1,62 @@
+/* Restaurant-App */
+
+.restaurant-stack-container,
+.trinity-stack-container,
+.rbopera-stack-container,
+.opera-search-stack-container {
+  background-color: antiquewhite;
+  margin-top: -20px;
+}
+
+.restaurant-stack-title,
+.trinity-stack-title,
+.rbopera-stack-title,
+.opera-search-stack-title {
+  color: black;
+  text-align: center;
+}
+
+.restaurant-stack-imgs,
+.trinity-stack-imgs,
+.rbopera-stack-imgs,
+.opera-search-stack-imgs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.adsense {
+  border-radius: 10%;
+  height: 70px;
+  position: relative;
+  top: -20px;
+}
+
+/* Opera-Search-App */
+
+/* Trinity-App */
+
+/* RBOpera-App */
+
+@media (max-width: 680px) {
+  .opera-search-stack-container {
+    position: relative;
+    top: 259px;
+  }
+  .rbopera-stack-container {
+    position: relative;
+    top: 283px;
+  }
+}
+
+@media (max-width: 414px) {
+  .opera-search-stack-container {
+    top: 80px;
+  }
+  .trinity-stack-container {
+    position: relative;
+    top: -100px;
+  }
+  .rbopera-stack-container {
+    top: 240px;
+  }
+}

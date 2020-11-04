@@ -1,5 +1,6 @@
 import React from "react";
 import "./RbOpera.css";
+import RbOperaStack from "../Stacks/RbOperaStack.js";
 
 import { Slide } from "react-awesome-reveal";
 
@@ -18,7 +19,7 @@ export default function RbOpera() {
             alt=""
           />
         </a>
-        <h1 className="singer-search-app-title">www.robertbalonek.com</h1>
+        <h1 className="opera-app-title">www.robertbalonek.com</h1>
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -32,30 +33,31 @@ export default function RbOpera() {
         </a>
       </div>
 
-      <div className="singer-search-container">
+      <div className="opera-container">
         <img
-          className="img-singer-search-app"
+          className="img-opera-app"
           alt="singer-app-img"
           src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1603294140/Portfolio%20Pics/mainShot_zixgkn.png"
         />
 
         <Slide>
-          <div className="content-singer-search">
-            <div className="text-card-singer-search">
-              <p className="singer-search-text">
+          <div className="content-opera">
+            <div className="text-card-opera">
+              <p className="opera-text">
                 After completing my 500 hour Software Engineering Immersive, I
                 decided to create a clone of my old opera singer wix site.
               </p>
-              <p className="singer-search-text">
+              <p className="opera-text">
                 I used React and gave myself a weekend to complete. My next plan
                 is to create a drag and drop clone of this and sell it to other
                 performers as a cheaper alternative to wix.
               </p>
-              <p className="singer-search-text"></p>
+              <p className="opera-text"></p>
             </div>
           </div>
         </Slide>
       </div>
+      <RbOperaStack />
     </div>
   );
 }

@@ -1,20 +1,24 @@
 import React from "react";
 import "./Skills.css";
 
-import { Fade, Rotate, Flip, Zoom } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 export default function Skills() {
   return (
     <div classname="skills-container">
       <div class="cloud-div">
-        <div class="cloud"></div>
+        <Slide>
+          <div class="cloud"></div>
+        </Slide>
       </div>
+
       <div className="cloud-icon-div">
         <img
           className="cloud-img"
           alt="Heroku"
           src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/heroku-plain-wordmark.6fd6c3b7_pgrfhc.svg"
         ></img>
+
         <img
           className="cloud-img"
           alt="AWS"
@@ -64,11 +68,17 @@ export default function Skills() {
           alt="html"
           src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512572/Portfolio%20Pics/html-logo_nerabl.png"
         ></img>
-        <img
-          className="skills-img"
-          alt="CSS"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/css-logo_scrgq5.png"
-        ></img>
+        <div id="css-div">
+          <img
+            className="skills-img"
+            id="css"
+            alt="CSS"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/css-logo_scrgq5.png"
+          ></img>
+          <span id="css-element">
+            BEM, Tailwind, flexbox, grid, responsive design, animation, bulma
+          </span>
+        </div>
         <img
           className="skills-img"
           alt="JS"
@@ -93,7 +103,6 @@ export default function Skills() {
           alt="Node"
           src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png"
         ></img>
-
         <img
           className="backend-skills-img"
           alt="Docker"

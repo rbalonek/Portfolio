@@ -1,5 +1,6 @@
 import React from "react";
 import "./RestaurantApp.css";
+import RestaurantStack from "../Stacks/RestaurantStack";
 
 //effects
 import { Fade, JackInTheBox } from "react-awesome-reveal";
@@ -72,6 +73,7 @@ export default function RestaurantApp() {
           />
         </JackInTheBox>
       </div>
+      <RestaurantStack />
     </div>
   );
 }
