@@ -19,15 +19,19 @@ a {
 .skills-div {
   display: flex;
   justify-content: space-around;
+  height: 1150px;
 }
 .my-title {
   color: white;
   align-self: center;
   text-align: center;
+  position: relative;
+  top: -110px;
+  font-family: monospace;
+  font-size: xxx-large;
 }
 
 #projects {
-  /* text-align: -webkit-center; */
 }
 
 @media (max-width: 680px) {
@@ -37,6 +41,9 @@ a {
 }
 
 @media (max-width: 600px) {
+  .my-title {
+    font-size: 50px;
+  }
   .App {
     flex-wrap: wrap;
     width: 100%;

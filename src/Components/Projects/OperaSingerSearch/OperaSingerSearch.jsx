@@ -1,5 +1,6 @@
 import React from "react";
 import "./OperaSingerSearch.css";
+import OperaSearchStack from "../Stacks/OperaSearchStack.js";
 
 import { Slide } from "react-awesome-reveal";
 
@@ -61,6 +62,7 @@ export default function OperaSingerSearch() {
           </div>
         </Slide>
       </div>
+      <OperaSearchStack />
     </div>
   );
 }

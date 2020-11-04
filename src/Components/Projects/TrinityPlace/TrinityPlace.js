@@ -1,5 +1,6 @@
 import React from "react";
 import "./TrinityPlace.css";
+import TrinityStack from "../Stacks/TrinityStack";
 
 import { Slide } from "react-awesome-reveal";
 
@@ -81,6 +82,7 @@ export default function TrinityPlace() {
         src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-2_gx7ytc.png"
         alt=""
       />
+      <TrinityStack />
     </div>
   );
 }
