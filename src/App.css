@@ -19,11 +19,14 @@ a {
 .skills-div {
   display: flex;
   justify-content: space-around;
+  height: 1150px;
 }
 .my-title {
   color: white;
   align-self: center;
   text-align: center;
+  position: relative;
+  top: -110px;
 }
 
 #projects {

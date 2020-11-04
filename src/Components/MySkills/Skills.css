@@ -1,0 +1,165 @@
+.skills-container {
+  display: flex;
+}
+
+/* Cloud Div Image */
+.cloud-div {
+  text-align: -webkit-center;
+}
+
+.cloud {
+  margin-top: 70px;
+  width: 550px;
+  height: 120px;
+  background: #eceff1;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.cloud::after,
+.cloud::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: inherit;
+}
+.cloud::after {
+  width: 180px;
+  height: 150px;
+  top: -100px;
+  left: -220px;
+}
+.cloud::before {
+  width: 250px;
+  height: 190px;
+  top: -100px;
+  left: 170px;
+}
+
+/* Imgs in Cloud */
+
+.cloud-icon-div {
+  position: relative;
+  text-align: center;
+  top: -7%;
+}
+.skills-img-wordpress {
+  border-radius: 60%;
+  height: 70px;
+}
+
+.cloud-img {
+  height: 70px;
+}
+
+.cloud-img,
+.skills-img-wordpress {
+  margin-left: 10px;
+}
+
+/* Computer Section */
+
+.computer-div {
+  text-align: center;
+  position: relative;
+  top: -3%;
+}
+
+.computer-img {
+  border-radius: 3%;
+}
+
+/* Imgs in computer */
+.react-div {
+  position: relative;
+  top: -460px;
+  text-align: center;
+}
+.react-img {
+  height: 150px;
+}
+
+.skills-img {
+  height: 100px;
+  margin: 20px;
+}
+
+.skills-front_end {
+  text-align: center;
+  position: relative;
+  top: -450px;
+}
+
+/* Backend */
+
+.backend-container {
+  text-align: -webkit-center;
+  position: relative;
+  top: -29%;
+}
+
+.server-container {
+  background-color: gray;
+  height: 240px;
+  width: 500px;
+  border-radius: 5%;
+}
+
+.server-top {
+  background-color: honeydew;
+  height: 100px;
+  width: 90%;
+  border-radius: 10%;
+  position: relative;
+  top: 15px;
+}
+
+.server-bottom {
+  background-color: honeydew;
+  height: 100px;
+  width: 90%;
+  border-radius: 10%;
+  position: relative;
+  top: 25px;
+}
+
+.backend-skills-img {
+  height: 100px;
+}
+
+.orange-dot {
+  background-color: orange;
+  height: 10px;
+  width: 10px;
+  border-radius: 80%;
+  position: relative;
+  right: -45%;
+  top: 45%;
+}
+
+.green-dot {
+  background-color: green;
+  height: 10px;
+  width: 10px;
+  border-radius: 80%;
+  position: relative;
+  right: -45%;
+  top: 45%;
+}
+
+.backend-skills-img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.skills-back_end_one {
+  position: relative;
+  top: -46%;
+  text-align: center;
+}
+
+.skills-back_end_two {
+  position: relative;
+  top: -41%;
+  text-align: center;
+}
