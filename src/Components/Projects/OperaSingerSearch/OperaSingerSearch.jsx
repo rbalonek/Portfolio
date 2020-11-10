@@ -37,7 +37,7 @@ export default function OperaSingerSearch() {
         <img
           className="img-singer-search-app"
           alt="singer-app-img"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1600955219/Portfolio%20Pics/Singer-searchOpera_yyswl8.png"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604968788/Portfolio%20Pics/Screen_Shot_2020-11-09_at_4.29.23_PM_za1mww.png"
         />
 
         <Slide>
