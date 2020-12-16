@@ -54,7 +54,7 @@
   }
   .trinity-stack-container {
     position: relative;
-    top: -100px;
+    /* top: -100px; */
   }
   .rbopera-stack-container {
     top: 240px;

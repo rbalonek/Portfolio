@@ -1,8 +1,9 @@
-.about-me-text-div{
+.about-me-text-div {
   height: 25vh;
   color: aliceblue;
   text-align: center;
+  padding: 20px;
 }
-.p-text-about-me{
+.p-text-about-me {
   font-size: larger;
 }

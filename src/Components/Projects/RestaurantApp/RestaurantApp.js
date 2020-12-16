@@ -3,7 +3,7 @@ import "./RestaurantApp.css";
 import RestaurantStack from "../Stacks/RestaurantStack";
 
 //effects
-import { Fade, JackInTheBox } from "react-awesome-reveal";
+import { Fade, Zoom } from "react-awesome-reveal";
 
 export default function RestaurantApp() {
   return (
@@ -35,15 +35,14 @@ export default function RestaurantApp() {
       </div>
 
       <div className="restaurant-container">
-        <JackInTheBox>
+        <Zoom>
           <img
             className="img-restarant-app"
             id="left-restaurant-app"
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127072/Portfolio%20Pics/CellPhonePreview1_stuvob.png"
             alt=""
           />
-        </JackInTheBox>
-
+        </Zoom>
         <div className="text-restaurant-app">
           <Fade cascade>
             <p className="p-restaurant-app">
@@ -64,14 +63,14 @@ export default function RestaurantApp() {
             </p>
           </Fade>
         </div>
-        <JackInTheBox>
+        <Zoom>
           <img
             className="img-restarant-app"
             id="right-restaurant-app"
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127073/Portfolio%20Pics/CellPhonePreview2_ot50f8.png"
             alt=""
           />
-        </JackInTheBox>
+        </Zoom>
       </div>
       <RestaurantStack />
     </div>
