@@ -13,7 +13,7 @@ import EmptySpace from "./Components/FakeContent/EmptySpace";
 import OperaSingerSearch from "./Components/Projects/OperaSingerSearch/OperaSingerSearch";
 import RbOpera from "./Components/Projects/RbOpera/RbOpera.jsx";
 
-import { Bounce } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function App() {
   return (
@@ -28,10 +28,9 @@ function App() {
       </section>
 
       <section id="projects">
-        <Bounce>
+        <Fade>
           <h1 className="my-title ">My Projects</h1>
-        </Bounce>
-
+        </Fade>
         <RestaurantApp />
         <EmptySpace />
         <OperaSingerSearch />

@@ -58,21 +58,22 @@
   .trinity-place-img {
     width: 50%;
     height: 80%;
+    display: none;
   }
   .img-trinity-app {
     border-radius: 10px;
-    height: 100px;
+    height: 200px;
     position: relative;
-    top: -100px;
-    left: 50px;
+    /* top: -100px; */
+    left: 150px;
     display: unset;
   }
   .img-trinity-app-right {
     border-radius: 10px;
-    height: 100px;
+    height: 200px;
     position: relative;
-    top: -100px;
-    left: 100px;
+    /* top: -100px; */
+    left: 300px;
     display: unset;
   }
   .img-trinity-app:hover {
@@ -88,7 +89,7 @@
 /* Iphone 6/7/8 CHECK Iphonex 375 */
 @media (max-width: 378px) {
   .img-trinity-app-right {
-    top: -100px;
+    /* top: -100px; */
     left: 75px;
   }
 }
@@ -97,12 +98,12 @@
 
 @media (max-width: 320px) {
   .img-trinity-app {
-    top: -100px;
-    left: 30px;
+    /* top: -100px; */
+    left: 150px;
   }
   .img-trinity-app-right {
-    top: -100px;
-    left: 50px;
+    /* top: -100px; */
+    left: 300px;
   }
   .img-trinity-app:hover {
     transform: scale(2);
