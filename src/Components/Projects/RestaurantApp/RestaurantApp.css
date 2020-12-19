@@ -5,6 +5,9 @@
   justify-content: space-between;
   width: 100%;
 }
+.smaller-restaurant-img {
+  display: none;
+}
 #left-restaurant-app {
   z-index: 999;
 }
@@ -28,6 +31,7 @@
   margin: 20px;
   height: min-content;
   align-self: center;
+  border-radius: 10px;
 }
 .p-restaurant-app {
   margin: 10px;
@@ -81,15 +85,44 @@
   }
   #left-restaurant-app {
     position: relative;
-    left: 100px;
+    left: 30px;
   }
   #right-restaurant-app {
     position: relative;
-    right: 100px;
+    right: 30px;
   }
   .img-restarant-app:hover {
     transform: scale(1.9);
     z-index: 999;
+  }
+  .smallImg-holder {
+    width: 95%;
+    position: absolute;
+  }
+  .smaller-restaurant-img {
+    display: inline;
+    float: right;
+    position: relative;
+    top: -400px;
+    /* right: 50px; */
+    height: 170px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .smaller-restaurant-img {
+    display: inline;
+    position: relative;
+    left: 50px;
+    height: 180px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .smaller-restaurant-img {
+    left: 80px;
   }
 }
 
@@ -99,15 +132,21 @@
     transform: scale(1.4);
     z-index: 999;
   }
+  .smaller-restaurant-img {
+    left: 130px;
+  }
 }
 
 /* Iphone 5/SE */
 @media (max-width: 320px) {
   .text-restaurant-app {
     position: relative;
-    top: 20px;
+    /* top: 20px; */
     margin: 0;
     font-size: small;
+  }
+  .smaller-restaurant-img {
+    left: 180px;
   }
   #left-restaurant-app {
     left: 50px;
