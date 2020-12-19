@@ -1,18 +1,25 @@
 import React from "react";
-import "./RestaurantApp.css";
-import RestaurantStack from "../Stacks/RestaurantStack";
+import "./HappySpace.css";
+import HappyStack from "../Stacks/HappyStack";
 
+import icon from "../../../assets/icon.png";
+import CatScreen from "../../../assets/CatScreen.png";
+import HistoryScreen from "../../../assets/HistoryScreen.png";
+import Dad from "../../../assets/DadScreen.png";
+import Inspiration from "../../../assets/InspirationScreen.png";
+
+import AppStore from "../../../assets/downloadAppStore.png";
 //effects
-import { Fade, Zoom } from "react-awesome-reveal";
+import { Fade, Roll, AttentionSeeker } from "react-awesome-reveal";
 
-export default function RestaurantApp() {
+export default function HappySpace() {
   return (
     <div>
       <div className="icon-div">
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/rbalonek/Restaurant-App"
+          href="https://github.com/rbalonek/Happy-Space-App"
         >
           <img
             className="github-icon"
@@ -20,11 +27,12 @@ export default function RestaurantApp() {
             alt=""
           />
         </a>
-        <h1 className="restaurant-app-title">Restaurant-App</h1>
+        <h1 className="restaurant-app-title">Happy-Space</h1>
+
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://balonek-restaurant-app.netlify.app/LiveMenu"
+          href="https://apps.apple.com/us/app/happy-space/id1544516931"
         >
           <img
             className="website-icon"
@@ -34,52 +42,65 @@ export default function RestaurantApp() {
         </a>
       </div>
 
-      <div className="restaurant-container">
-        <Zoom>
-          <img
-            className="img-restarant-app"
-            id="left-restaurant-app"
-            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127072/Portfolio%20Pics/CellPhonePreview1_stuvob.png"
-            alt=""
-          />
-        </Zoom>
-        <div className="text-restaurant-app">
+      <div className="happy-space-container">
+        <div className="cell-img-container">
           <Fade cascade>
-            <p className="p-restaurant-app">
-              My Restaurant-App was created to provide restaurants assistance in
-              complying with a socially distanced guest experience.
-            </p>
-            <p className="p-restaurant-app">
-              {" "}
-              The app is designed so a guest will be able to scan the QR code on
-              the table and view / order from the menu without needing to call
-              over the server.{" "}
-            </p>
-            <p className="p-restaurant-app">
-              The admin of the restaurant-app is able to log into their
-              password-protected back-end to Create, Edit, and delete menu
-              items. The edits will reflect the "Main Menu" screen so the guests
-              will be able to add menu items to their bill.
-            </p>
+            <img
+              className="CatScreenImg, cellImg"
+              src={CatScreen}
+              alt="CatScreenImg"
+            />
+            <img
+              className="HistoryScreenImg, cellImg"
+              src={HistoryScreen}
+              alt="HistoryScreenImg"
+            />
+            <img
+              className="DadScreenImg, cellImg"
+              src={Dad}
+              alt="DasScreenImg"
+            />
+            <img
+              className="InspirationScreenImg, cellImg"
+              src={Inspiration}
+              alt="Inspiration"
+            />
           </Fade>
         </div>
-        <Zoom>
-          <img
-            className="img-restarant-app"
-            id="right-restaurant-app"
-            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598127073/Portfolio%20Pics/CellPhonePreview2_ot50f8.png"
-            alt=""
-          />
-        </Zoom>
+        <div className="icon-container">
+          <Roll delay="100">
+            <AttentionSeeker effect="tada" delay="200">
+              <img className="icon-img" src={icon} alt="icon" />
+            </AttentionSeeker>
+          </Roll>
+        </div>
+        <div className="Container-happy-space"></div>
+        <div className="Text-Container-happy-space">
+          <p>Happy-Space is my first React Native App store App.</p>
+          <p>
+            It was built in under a week using 5 different APIs, 4 screens and a
+            homepage.
+          </p>
+          <p>
+            My main goal was to get ANYTHING onto the app store, but I did have
+            a fun time making it.
+          </p>
+          <AttentionSeeker effect="jello">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://apps.apple.com/us/app/happy-space/id1544516931"
+            >
+              <img
+                className="download-app-store"
+                src={AppStore}
+                alt="App Store"
+              />
+            </a>
+          </AttentionSeeker>
+        </div>
       </div>
-      <div className="smallImg-holder">
-        <img
-          alt="smallRest"
-          className="smaller-restaurant-img"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598126009/Portfolio%20Pics/RestaurantAppPreview_erljtv.png"
-        ></img>
-      </div>
-      <RestaurantStack />
+      <HappyStack />
     </div>
   );
 }
