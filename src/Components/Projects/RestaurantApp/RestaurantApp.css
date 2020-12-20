@@ -32,6 +32,7 @@
   height: min-content;
   align-self: center;
   border-radius: 10px;
+  text-align: center;
 }
 .p-restaurant-app {
   margin: 10px;
@@ -42,6 +43,7 @@
   border-radius: 60%;
   position: relative;
   top: 10px;
+  left: 50px;
 }
 .github-icon:hover {
   transform: scale(1.3);
@@ -52,6 +54,7 @@
   border-radius: 90%;
   position: relative;
   top: 15px;
+  right: 50px;
 }
 .website-icon:hover {
   transform: scale(1.3);

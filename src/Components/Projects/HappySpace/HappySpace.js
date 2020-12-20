@@ -78,8 +78,8 @@ export default function HappySpace() {
         <div className="Text-Container-happy-space">
           <p>Happy-Space is my first React Native App store App.</p>
           <p>
-            It was built in under a week using 5 different APIs, 4 screens and a
-            homepage.
+            It was built in under a week using 5 different APIs, 4 screens, and
+            a homepage.
           </p>
           <p>
             My main goal was to get ANYTHING onto the app store, but I did have
