@@ -25,18 +25,33 @@ export default function Header() {
   return (
     <div className="container" onClick={clickedHeader}>
       <header className="App-header">
-        <div>
-          <h1>Robert Balonek</h1>
-          <h2>Software Engineer</h2>
-        </div>
+        <Fade
+          triggerOnce={true}
+          delay={1000}
+          duration={2000}
+          className="header-text-container"
+        >
+          <div className="header-text-container">
+            <h1>Robert Balonek</h1>
+            <h2>Software Engineer</h2>
+          </div>
+        </Fade>
+
         <div className="animated-div">
-          <Hinge triggerOnce delay={1500} duration={1000}>
-            <AttentionSeeker effect={"tada"}>
-              <h3 className="animated-hinge">Expert</h3>
+          <Fade delay={2000} duration={1000}>
+            <AttentionSeeker
+              delay={2000}
+              effect={"tada"}
+              className="animated-hinge"
+            >
+              <Hinge triggerOnce delay={2500} duration={2000}>
+                <h3 className="animated-hinge">Expert</h3>
+              </Hinge>
             </AttentionSeeker>
-          </Hinge>
+          </Fade>
         </div>
-        <Fade delay={1500} duration={2000} triggerOnce={true}>
+
+        <Fade delay={3500} duration={2000} triggerOnce={true}>
           <div className="arrow">
             <span></span>
             <span></span>

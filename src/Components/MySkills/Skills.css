@@ -1,18 +1,31 @@
 .skills-container {
   display: flex;
+  height: 100vh;
+  width: 100%;
 }
 
 /* Cloud Div Image */
 .cloud-div {
   text-align: -webkit-center;
+  position: relative;
+  right: 0%;
+  top: 4.5vh;
 }
 
-.cloud {
+/* .cloud {
   margin-top: 70px;
   width: 550px;
   height: 120px;
   background: #eceff1;
   box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+} */
+.cloud {
+  margin-top: 70px;
+  width: 266px;
+  height: 89px;
+  background: #eceff1;
+  box-shadow: 10px 10px rgb(0 0 0 / 20%);
   border-radius: 100px;
 }
 .cloud::after,
@@ -24,16 +37,16 @@
   border-radius: inherit;
 }
 .cloud::after {
-  width: 180px;
-  height: 150px;
-  top: -100px;
-  left: -220px;
+  width: 120px;
+  height: 110px;
+  top: -81px;
+  left: -89px;
 }
 .cloud::before {
-  width: 250px;
-  height: 190px;
-  top: -100px;
-  left: 170px;
+  width: 113px;
+  height: 148px;
+  top: -60px;
+  left: 98px;
 }
 
 /* Imgs in Cloud */
@@ -41,15 +54,17 @@
 .cloud-icon-div {
   position: relative;
   text-align: center;
-  top: -7%;
+  top: -2%;
+  left: 25%;
+  display: flex;
 }
 .skills-img-wordpress {
   border-radius: 60%;
-  height: 70px;
+  height: 50px;
 }
 
 .cloud-img {
-  height: 70px;
+  height: 35px;
 }
 
 .cloud-img,
@@ -62,23 +77,24 @@
 .computer-div {
   text-align: center;
   position: relative;
-  top: -3%;
+  top: 0%;
 }
 
 .computer-img {
   border-radius: 3%;
+  height: 300px;
 }
 
 /* Imgs in computer */
 .react-div {
   position: relative;
-  top: -450px;
+  top: -24%;
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
 .react-img {
-  height: 150px;
+  height: 75px;
 }
 
 .skills-img {
@@ -103,7 +119,7 @@
 .skills-front_end {
   text-align: center;
   position: relative;
-  top: -450px;
+  top: -25%;
   display: flex;
   justify-content: center;
 }
@@ -113,19 +129,19 @@
 .backend-container {
   text-align: -webkit-center;
   position: relative;
-  top: -29%;
+  top: -22%;
 }
 
 .server-container {
   background-color: gray;
-  height: 240px;
+  height: 140px;
   width: 500px;
   border-radius: 5%;
 }
 
 .server-top {
   background-color: honeydew;
-  height: 100px;
+  height: 50px;
   width: 90%;
   border-radius: 10%;
   position: relative;
@@ -134,7 +150,7 @@
 
 .server-bottom {
   background-color: honeydew;
-  height: 100px;
+  height: 50px;
   width: 90%;
   border-radius: 10%;
   position: relative;
@@ -172,12 +188,12 @@
 
 .skills-back_end_one {
   position: relative;
-  top: -46%;
+  top: -32.9%;
   text-align: center;
 }
 
 .skills-back_end_two {
   position: relative;
-  top: -41%;
+  top: -32.3%;
   text-align: center;
 }

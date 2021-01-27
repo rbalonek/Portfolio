@@ -24,9 +24,31 @@
   border: none;
   text-align: center;
 }
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .animated-div {
+  position: relative;
+  width: 100%;
+  /* top: 44%; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* background-color: red; */
+  height: 10px;
+  /* left: 28%; */
+  bottom: 20%;
+  right: 3.5%;
+}
+
+.animated-hinge {
   position: absolute;
-  top: 44%;
+  /* top: 50%; */
+  /* left: 100px; */
 }
 .arrow {
   position: absolute;
@@ -68,12 +90,12 @@
 
 /* Larger computer screen height */
 @media (min-height: 850px) {
-  .App-header {
+  /* .App-header {
     min-height: 45vh;
   }
   .animated-div {
     top: 18%;
-  }
+  } */
 }
 
 /* First maj responsive issue */
@@ -84,10 +106,10 @@
 @media (max-width: 414px) {
   .App-header {
     /* background-color: #1f4faf; */
-    height: 20vh;
-    min-height: 48vh;
+    /* height: 20vh;
+    min-height: 48vh; */
   }
-  .container {
+  /* .container {
     font-size: xx-small;
     contain: content;
   }
@@ -99,29 +121,28 @@
   .animated-div {
     position: relative;
     top: -100px;
-  }
+  } */
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .animated-div {
-    position: absolute;
-    /* top: 25%; */
+    /* position: absolute; */
   }
 }
 
 /* Iphone 6/7/8 CHECK Iphonex 375 */
 @media (max-width: 378px) {
-  .App-header {
+  /* .App-header {
     min-height: 60vh;
-  }
+  } */
 }
 
 /* Iphone 5/SE */
 @media (max-width: 320px) {
-  .animated-div {
+  /* .animated-div {
     top: -90px;
   }
   .App-header {
     min-height: 79vh;
-  }
+  } */
 }

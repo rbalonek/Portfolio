@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
-
-import { Slide } from "react-awesome-reveal";
+import { Animated } from "react-animated-css";
+import { Slide, Fade } from "react-awesome-reveal";
 
 export default function Skills() {
   return (
@@ -11,34 +11,36 @@ export default function Skills() {
           <div class="cloud"></div>
         </Slide>
       </div>
-
       <div className="cloud-icon-div">
-        <img
-          className="cloud-img"
-          alt="Heroku"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/heroku-plain-wordmark.6fd6c3b7_pgrfhc.svg"
-        ></img>
+        <Fade cascade className="cloud-icon-div" childClassName="cloud-img">
+          <img
+            className="cloud-img"
+            alt="Heroku"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/heroku-plain-wordmark.6fd6c3b7_pgrfhc.svg"
+          ></img>
 
-        <img
-          className="cloud-img"
-          alt="AWS"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514307/Portfolio%20Pics/amazon-web-services_gn3uen.png"
-        ></img>
-        <img
-          className="cloud-img"
-          alt="Netlify"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png"
-        ></img>
-        <img
-          className="skills-img-wordpress"
-          alt="Wordpress"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514331/Portfolio%20Pics/wordpress_qpulah.jpg"
-        ></img>
-        <img
-          className="cloud-img"
-          alt="GIT"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/git-logo_pacwkv.png"
-        ></img>
+          <img
+            className="cloud-img"
+            alt="AWS"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514307/Portfolio%20Pics/amazon-web-services_gn3uen.png"
+          ></img>
+
+          <img
+            className="cloud-img"
+            alt="Netlify"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png"
+          ></img>
+          <img
+            className="cloud-img"
+            alt="Wordpress"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514331/Portfolio%20Pics/wordpress_qpulah.jpg"
+          ></img>
+          <img
+            className="cloud-img"
+            alt="GIT"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/git-logo_pacwkv.png"
+          ></img>
+        </Fade>
       </div>
 
       <div className="computer-div">
