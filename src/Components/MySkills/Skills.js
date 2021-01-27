@@ -2,17 +2,23 @@ import React from "react";
 import "./Skills.css";
 import { Animated } from "react-animated-css";
 import { Slide, Fade } from "react-awesome-reveal";
+import Static from "../../assets/tvnoise.gif";
 
 export default function Skills() {
   return (
     <div classname="skills-container">
       <div class="cloud-div">
-        <Slide>
+        <Slide triggerOnce={true}>
           <div class="cloud"></div>
         </Slide>
       </div>
       <div className="cloud-icon-div">
-        <Fade cascade className="cloud-icon-div" childClassName="cloud-img">
+        <Fade
+          triggerOnce={true}
+          cascade
+          className="cloud-icon-div"
+          childClassName="cloud-img"
+        >
           <img
             className="cloud-img"
             alt="Heroku"
@@ -44,26 +50,30 @@ export default function Skills() {
       </div>
 
       <div className="computer-div">
+        <Fade triggerOnce={true} className="static-tv">
+          <div className="static-tv">
+            <img className="static-gif" src={Static} alt="static" />
+          </div>
+        </Fade>
         <img
           className="computer-img"
           alt="computer"
           src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604517652/Portfolio%20Pics/Computer_Cropped_vcxr2m.png"
         ></img>
       </div>
-
       <div className="react-div">
         <img
           className="react-img"
           alt="React"
           src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg"
         ></img>
+
         <img
-          className="react-img"
+          className="react-native-img"
           alt="React"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604521004/Portfolio%20Pics/native_ty8w9r.jpg"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1611784258/Portfolio%20Pics/Logos/ReactNativeKnockout_v54jwe.png"
         ></img>
       </div>
-
       <div className="skills-front_end">
         <img
           className="skills-img"
