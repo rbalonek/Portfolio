@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import zenscroll from "zenscroll";
-
+import { Fade } from "react-awesome-reveal";
 //Animation
 import { Hinge, AttentionSeeker } from "react-awesome-reveal";
 // import {Animated} from "react-animated-css";
@@ -36,6 +36,13 @@ export default function Header() {
             </AttentionSeeker>
           </Hinge>
         </div>
+        <Fade delay={1500} duration={2000} triggerOnce={true}>
+          <div className="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </Fade>
       </header>
     </div>
   );

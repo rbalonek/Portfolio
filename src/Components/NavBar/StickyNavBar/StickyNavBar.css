@@ -1,8 +1,15 @@
 .sticky-nav--container {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   z-index: 1;
   transition: ease-in-out;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
 }

@@ -3,7 +3,7 @@ import "./App.css";
 
 //Components
 import Header from "./Components/Header/Header";
-import NavBar from "./Components/NavBar/NavBar";
+// import NavBar from "./Components/NavBar/NavBar";
 import Skills from "./Components/MySkills/Skills";
 import RestaurantApp from "./Components/Projects/RestaurantApp/RestaurantApp";
 import TrinityPlace from "./Components/Projects/TrinityPlace/TrinityPlace";
@@ -13,14 +13,15 @@ import EmptySpace from "./Components/FakeContent/EmptySpace";
 import OperaSingerSearch from "./Components/Projects/OperaSingerSearch/OperaSingerSearch";
 import RbOpera from "./Components/Projects/RbOpera/RbOpera.jsx";
 import HappySpace from "./Components/Projects/HappySpace/HappySpace";
-
 import { Fade } from "react-awesome-reveal";
+import StickyNavBar from "./Components/NavBar/StickyNavBar/StickyNavBar";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <NavBar />
+
+      <StickyNavBar />
       <EmptySpace />
       <section id="skills">
         <div className="skills-div">
