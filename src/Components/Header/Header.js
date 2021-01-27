@@ -1,8 +1,9 @@
 import React from "react";
 import "./Header.css";
+import zenscroll from "zenscroll";
 
 //Animation
-import { Hinge } from "react-awesome-reveal";
+import { Hinge, AttentionSeeker } from "react-awesome-reveal";
 // import {Animated} from "react-animated-css";
 
 export default function Header() {
@@ -16,16 +17,23 @@ export default function Header() {
   //   }
   // };
 
+  const clickedHeader = () => {
+    var skills = document.getElementById("skills");
+    zenscroll.to(skills);
+  };
+
   return (
-    <div className="container">
+    <div className="container" onClick={clickedHeader}>
       <header className="App-header">
         <div>
           <h1>Robert Balonek</h1>
           <h2>Software Engineer</h2>
         </div>
         <div className="animated-div">
-          <Hinge triggerOnce delay={1000} duration={1500}>
-            <h3 className="animated-hinge">Expert</h3>
+          <Hinge triggerOnce delay={1500} duration={1000}>
+            <AttentionSeeker effect={"tada"}>
+              <h3 className="animated-hinge">Expert</h3>
+            </AttentionSeeker>
           </Hinge>
         </div>
       </header>

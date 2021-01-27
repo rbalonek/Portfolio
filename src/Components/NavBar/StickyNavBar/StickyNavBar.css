@@ -1,0 +1,8 @@
+.sticky-nav--container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightgreen;
+  z-index: 1;
+  transition: ease-in-out;
+}
