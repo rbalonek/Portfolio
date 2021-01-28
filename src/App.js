@@ -32,6 +32,7 @@ function App() {
 
       <section style={{ minHeight: "100vh", width: "100vw" }} id="projects">
         <h2 style={{ color: "white" }}>Projects</h2>
+        <HappySpace />
       </section>
 
       <section id="about">
