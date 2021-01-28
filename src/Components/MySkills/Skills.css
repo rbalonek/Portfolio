@@ -86,10 +86,10 @@
 }
 .static-gif {
   height: 210px;
-  width: 360px;
+  width: 355px;
   position: relative;
   left: 20%;
-  top: 8px;
+  top: 6px;
 }
 
 .computer-img {
@@ -172,6 +172,7 @@
 
 .server-bottom {
   background-color: honeydew;
+
   height: 50px;
   width: 90%;
   border-radius: 10%;

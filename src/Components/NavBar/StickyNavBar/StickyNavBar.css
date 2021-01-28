@@ -9,8 +9,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 200% 200%;
+  background-color: black;
   animation: gradient 10s ease infinite;
 }
 
@@ -18,10 +17,19 @@
   color: white;
   cursor: pointer;
   font-size: 15px;
+  transition-duration: 1s;
 }
 .text-highlighted {
-  color: red;
+  color: white;
+
   cursor: pointer;
   font-size: 30px;
   transition-duration: 1s;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%; */
+  border-radius: 10%;
+  width: 120%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

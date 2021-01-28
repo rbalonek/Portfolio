@@ -34,7 +34,7 @@ a {
 #projects {
 }
 
-@media (max-width: 680px) {
+/* @media (max-width: 680px) {
   .extra-space {
     margin-bottom: 300px;
   }
@@ -52,4 +52,4 @@ a {
     display: flex;
     justify-content: space-around;
   }
-}
+} */

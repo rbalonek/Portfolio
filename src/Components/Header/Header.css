@@ -23,6 +23,7 @@
   color: white;
   border: none;
   text-align: center;
+  width: 100vw;
 }
 .header-text-container {
   display: flex;

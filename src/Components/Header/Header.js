@@ -38,14 +38,14 @@ export default function Header() {
         </Fade>
 
         <div className="animated-div">
-          <JackInTheBox delay={2000} duration={1500}>
-            <Hinge triggerOnce delay={3000} duration={1000}>
+          <JackInTheBox delay={1000} duration={1500}>
+            <Hinge triggerOnce delay={2000} duration={1500}>
               <h3 className="animated-hinge">Expert</h3>
             </Hinge>
           </JackInTheBox>
         </div>
 
-        <Fade delay={3500} duration={2000} triggerOnce={true}>
+        <Fade delay={2800} duration={2000} triggerOnce={true}>
           <div className="arrow">
             <span></span>
             <span></span>
