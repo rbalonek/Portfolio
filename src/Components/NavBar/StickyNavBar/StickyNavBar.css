@@ -33,3 +33,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .text-regular {
+    font-size: 2vw;
+  }
+  .text-highlighted {
+    font-size: 4vw;
+  }
+}
