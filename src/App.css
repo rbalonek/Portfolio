@@ -18,8 +18,8 @@ a {
 
 .skills-div {
   display: flex;
-  justify-content: space-around;
-  height: 1150px;
+  justify-content: center;
+  /* height: 1150px; */
 }
 .my-title {
   color: white;
