@@ -5,7 +5,6 @@ import Native from "../../../assets/reactNative.png";
 export default function HappyStack() {
   return (
     <div className="restaurant-stack-container">
-      <h2 className="restaurant-stack-title">Stack</h2>
       <div className="restaurant-stack-imgs">
         <img
           className="cloud-img top-img"

@@ -119,7 +119,8 @@
     height: 150px;
   }
   .happy-text {
-    font-size: 2vw;
+    font-size: 3vw;
+    line-height: 1;
   }
   .happy-stack-holder {
     position: relative;

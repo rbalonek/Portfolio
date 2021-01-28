@@ -32,12 +32,9 @@ function App() {
 
       <section style={{ minHeight: "100vh", width: "100vw" }} id="projects">
         <HappySpace />
+        <EmptySpace />
       </section>
-      <EmptySpace />
-      <EmptySpace />
-      <EmptySpace />
-      <EmptySpace />
-      <EmptySpace />
+
       <section id="about">
         <AboutMe />
       </section>

@@ -13,7 +13,11 @@
 .rbopera-stack-container,
 .opera-search-stack-container {
   background-color: antiquewhite;
-  margin-top: -20px;
+  display: flex;
+  background-color: antiquewhite;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .restaurant-stack-title,
