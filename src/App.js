@@ -22,7 +22,7 @@ function App() {
       <Header />
 
       <StickyNavBar />
-      <EmptySpace />
+
       <section id="skills">
         <div className="skills-div">
           <Skills />
@@ -35,25 +35,22 @@ function App() {
         </Fade>
 
         <HappySpace />
-        <EmptySpace />
+
         <RestaurantApp />
-        <EmptySpace />
+
         <OperaSingerSearch />
         <div className="extra-space">
           <EmptySpace />
         </div>
         <TrinityPlace />
-        <EmptySpace />
+
         <RbOpera />
       </section>
-      <EmptySpace />
-      <EmptySpace />
 
       <section id="about">
         <AboutMe />
       </section>
-      <EmptySpace />
-      <EmptySpace />
+
       <section id="contact">
         <Footer />
       </section>

@@ -54,7 +54,7 @@
 .arrow {
   position: absolute;
   bottom: 10%;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%, -50%);
 }
 .arrow span {
@@ -121,8 +121,8 @@
 @media (max-width: 414px) {
   .App-header {
     /* background-color: #1f4faf; */
-    /* height: 20vh;
-    min-height: 48vh; */
+    /* height: 120vh; */
+    /* min-height: 48vh; */
   }
   /* .container {
     font-size: xx-small;
@@ -137,6 +137,12 @@
     position: relative;
     top: -100px;
   } */
+  .arrow {
+    position: absolute;
+    bottom: 10%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
