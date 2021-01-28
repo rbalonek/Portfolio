@@ -23,7 +23,7 @@
   color: white;
   border: none;
   text-align: center;
-  /* width: 100vw; */
+  width: 100vw;
 }
 .header-text-container {
   display: flex;
@@ -101,6 +101,20 @@
 
 /* First maj responsive issue */
 @media (max-width: 650px) {
+  .App-header {
+    /* background-color: #282c34; */
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 /* MY CELL PHONE SIZE */
