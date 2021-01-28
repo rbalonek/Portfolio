@@ -75,14 +75,16 @@ export default function HappySpace() {
             </AttentionSeeker>
           </Roll>
         </div>
-        <div className="Container-happy-space"></div>
+
         <div className="Text-Container-happy-space">
-          <p>Happy-Space is my first React Native App store App.</p>
-          <p>
+          <p className="happy-text">
+            Happy-Space is my first React Native App store App.
+          </p>
+          <p className="happy-text">
             It was built in under a week using 5 different APIs, 4 screens, and
             a homepage.
           </p>
-          <p>
+          <p className="happy-text">
             My main goal was to get ANYTHING onto the app store, but I did have
             a fun time making it.
           </p>
@@ -100,8 +102,10 @@ export default function HappySpace() {
             </a>
           </AttentionSeeker>
         </div>
+        <div className="happy-stack-holder">
+          <HappyStack />
+        </div>
       </div>
-      <HappyStack />
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function HappyStack() {
       <h2 className="restaurant-stack-title">Stack</h2>
       <div className="restaurant-stack-imgs">
         <img
-          className="cloud-img, top-img"
+          className="cloud-img top-img"
           alt="react Native"
           src={Native} //"https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604521004/Portfolio%20Pics/native_ty8w9r.jpg"
         ></img>

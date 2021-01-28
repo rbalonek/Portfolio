@@ -2,9 +2,17 @@
   height: 100vh;
 }
 
-.happy-container {
+.happy-space-container {
+  /* background-color: #c9c9d2; */
+  background-color: #222222;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
   flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: 4%;
+  height: 100%;
 }
 .happy-icon-div {
   display: flex;
@@ -54,23 +62,14 @@
   position: relative;
   bottom: 10px;
 }
-.happy-space-container {
-  /* background-color: #c9c9d2; */
-  background-color: #222222;
 
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  /* height: 100%; */
-}
 .Container-happy-space {
   height: 150px;
   display: flex;
 }
 .cell-img-container {
   position: relative;
-  top: 100px;
+  top: 15vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -89,7 +88,7 @@
 .Text-Container-happy-space {
   width: 90%;
   position: relative;
-  bottom: 20px;
+  bottom: -15%;
   background-color: white;
   text-align: center;
   align-self: center;
@@ -99,25 +98,45 @@
   /* z-index: 1; */
 }
 .download-app-store {
-  height: 100px;
+  height: 50px;
   margin-bottom: 5px;
 }
-
-/* @media (max-width: 805px) {
+.happy-text {
+  line-height: 0.5;
+}
+.happy-stack-holder {
+  position: relative;
+  bottom: -16%;
+}
+@media (max-width: 730px) {
   .icon-img {
-    height: 80px;
-    border-radius: 30px;
-    margin-top: 10px;
-  }
-  .icon-container {
+    height: 70px;
+    border-radius: 20px;
     position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: -300px;
+    top: 10px;
   }
-  .Container-happy-space {
-    height: 50px;
-    display: flex;
+  .cellImg {
+    height: 150px;
   }
-} */
+  .happy-text {
+    font-size: 2vw;
+  }
+  .happy-stack-holder {
+    position: relative;
+    top: 20%;
+  }
+  .happy-github-icon {
+    height: 40px;
+    border-radius: 60%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+  .happy-website-icon {
+    height: 30px;
+    border-radius: 90%;
+    position: relative;
+    top: 10px;
+    right: 5px;
+  }
+}
