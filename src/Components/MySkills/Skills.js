@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import { Animated } from "react-animated-css";
-import { Slide, Fade } from "react-awesome-reveal";
+import { Slide, Fade, AttentionSeeker } from "react-awesome-reveal";
 import Static from "../../assets/tvnoise.gif";
 
 export default function Skills() {
@@ -110,58 +110,70 @@ export default function Skills() {
       </div>
 
       <div className="skills-back_end_one">
-        <img
+        <AttentionSeeker
+          delay={2500}
           className="backend-skills-img"
-          alt="Node"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="Docker"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/docker-original-wordmark.86726983_iksoeg.svg"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="Express"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512572/Portfolio%20Pics/express-original-wordmark.f1a0b0e9_pom0ic.svg"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="MongoDB"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/mongodb-plain-wordmark.07c92838_rgtxc3.svg"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="PostgresSQL"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="postico"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514402/Portfolio%20Pics/Postico_wrhfis.png"
-        ></img>
+          effect={"tada"}
+        >
+          <img
+            className="backend-skills-img"
+            alt="Node"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="Docker"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/docker-original-wordmark.86726983_iksoeg.svg"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="Express"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512572/Portfolio%20Pics/express-original-wordmark.f1a0b0e9_pom0ic.svg"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="MongoDB"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/mongodb-plain-wordmark.07c92838_rgtxc3.svg"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="PostgresSQL"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="postico"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514402/Portfolio%20Pics/Postico_wrhfis.png"
+          ></img>
+        </AttentionSeeker>
       </div>
       <div className="skills-back_end_two">
-        <img
+        <AttentionSeeker
+          delay={2500}
           className="backend-skills-img"
-          alt="Postman"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/postman-logo_rr22mr.png"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="SQL"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/sql-logo_m7x84a.png"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="RAILS"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/rails-plain-wordmark.afe59a88_qkf93e.svg"
-        ></img>
-        <img
-          className="backend-skills-img"
-          alt="RUBY"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/ruby-plain-wordmark.b065b718_pxbhrj.svg"
-        ></img>
+          effect={"tada"}
+        >
+          <img
+            className="backend-skills-img"
+            alt="Postman"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/postman-logo_rr22mr.png"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="SQL"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/sql-logo_m7x84a.png"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="RAILS"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/rails-plain-wordmark.afe59a88_qkf93e.svg"
+          ></img>
+          <img
+            className="backend-skills-img"
+            alt="RUBY"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/ruby-plain-wordmark.b065b718_pxbhrj.svg"
+          ></img>
+        </AttentionSeeker>
       </div>
     </div>
   );

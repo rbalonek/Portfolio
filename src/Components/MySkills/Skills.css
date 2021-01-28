@@ -212,10 +212,15 @@
   position: relative;
   top: -22.9%;
   text-align: center;
+  display: flex;
+  left: 12%;
 }
 
 .skills-back_end_two {
   position: relative;
   top: -22.3%;
   text-align: center;
+  text-align: center;
+  display: flex;
+  left: 20%;
 }

@@ -17,8 +17,11 @@
 .text-regular {
   color: white;
   cursor: pointer;
+  font-size: 15px;
 }
 .text-highlighted {
   color: red;
   cursor: pointer;
+  font-size: 30px;
+  transition-duration: 1s;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import zenscroll from "zenscroll";
-import { Fade } from "react-awesome-reveal";
+import { Fade, JackInTheBox } from "react-awesome-reveal";
 //Animation
 import { Hinge, AttentionSeeker } from "react-awesome-reveal";
 // import {Animated} from "react-animated-css";
@@ -38,17 +38,11 @@ export default function Header() {
         </Fade>
 
         <div className="animated-div">
-          <Fade delay={2000} duration={1000}>
-            <AttentionSeeker
-              delay={2000}
-              effect={"tada"}
-              className="animated-hinge"
-            >
-              <Hinge triggerOnce delay={2500} duration={2000}>
-                <h3 className="animated-hinge">Expert</h3>
-              </Hinge>
-            </AttentionSeeker>
-          </Fade>
+          <JackInTheBox delay={2000} duration={1500}>
+            <Hinge triggerOnce delay={3000} duration={1000}>
+              <h3 className="animated-hinge">Expert</h3>
+            </Hinge>
+          </JackInTheBox>
         </div>
 
         <Fade delay={3500} duration={2000} triggerOnce={true}>
