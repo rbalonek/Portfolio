@@ -1,7 +1,7 @@
 .skills-container {
   display: flex;
-  height: 100vh;
-  width: 100%;
+  /* height: 250vh; */
+  /* width: 100%; */
 }
 
 /* Cloud Div Image */
@@ -9,7 +9,7 @@
   text-align: -webkit-center;
   position: relative;
   right: 0%;
-  top: 10%;
+  top: 5%;
 }
 
 /* .cloud {
@@ -22,8 +22,8 @@
 } */
 .cloud {
   margin-top: 70px;
-  /* width: 266px; */
-  width: 40vh;
+  width: 266px;
+  /* width: 40vh; */
   height: 89px;
   background: #eceff1;
   box-shadow: 10px 10px rgb(0 0 0 / 20%);
@@ -55,7 +55,7 @@
 .cloud-icon-div {
   position: relative;
   text-align: center;
-  top: 5%;
+  top: 0%;
   left: 25%;
   display: flex;
 }
@@ -78,7 +78,7 @@
 .computer-div {
   text-align: center;
   position: relative;
-  top: 10%;
+  top: 3%;
 }
 .static-tv {
   position: absolute;
@@ -87,7 +87,6 @@
 }
 .static-gif {
   height: 210px;
-  /* height: 13em; */
   width: 355px;
   position: relative;
   left: 20%;
@@ -102,7 +101,7 @@
 /* Imgs in computer */
 .react-div {
   position: relative;
-  top: -24%;
+  top: -20%;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -140,7 +139,7 @@
 .skills-front_end {
   text-align: center;
   position: relative;
-  top: -25%;
+  top: -21%;
   display: flex;
   justify-content: center;
 }
@@ -151,7 +150,7 @@
   text-align: -webkit-center;
   position: relative;
   /* top: -22%; */
-  bottom: 100px;
+  bottom: 18%;
 }
 
 .server-container {
@@ -214,7 +213,7 @@
 
 .skills-back_end_one {
   position: relative;
-  top: -380px;
+  top: -330px;
   text-align: center;
   display: flex;
   left: 12%;
@@ -222,41 +221,103 @@
 
 .skills-back_end_two {
   position: relative;
-  top: -372px;
+  top: -325px;
   text-align: center;
   text-align: center;
   display: flex;
   left: 20%;
 }
 
-@media (max-height: 800px) {
+@media (max-height: 1000px) {
   /* THIS IS FOR REALLY SHORT DESKTOP before shrink */
-  .cloud-div {
+  /* .cloud-div {
     text-align: -webkit-center;
     position: relative;
     right: 0%;
     top: 5%;
   }
+  .cloud-icon-div {
+    position: relative;
+    text-align: center;
+    top: -3%;
+    left: 15%;
+    display: flex;
+  }
 
   .computer-div {
     text-align: center;
     position: relative;
-    top: 2%;
+    top: 1%;
+  }
+  .static-gif {
+    height: 210px;
+    width: 355px;
+    position: relative;
+    left: 2%;
+    top: 6px;
+  }
+  .react-div {
+    position: relative;
+    top: -41%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .skills-front_end {
+    text-align: center;
+    position: relative;
+    top: -38%;
+    display: flex;
+    justify-content: center;
   }
   .backend-container {
     text-align: -webkit-center;
     position: relative;
-    /* top: -22%; */
-    bottom: 26%;
+    bottom: 36%;
   }
   .server-container {
-    /* background-color: gray; */
     background-color: #5b6467;
     background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
     height: 100px;
     width: 100%;
     border-radius: 5%;
   }
+  .server-top {
+    background-color: honeydew;
+    height: 40px;
+    width: 90%;
+    border-radius: 10%;
+    position: relative;
+    top: 8px;
+  }
+  .server-bottom {
+    background-color: honeydew;
+    height: 40px;
+    width: 90%;
+    border-radius: 10%;
+    position: relative;
+    top: 15px;
+  }
+  .backend-skills-img {
+    height: 42px;
+    margin-right: 10px;
+  }
+
+  .skills-back_end_one {
+    position: relative;
+    top: -49.5%;
+    text-align: center;
+    display: flex;
+    left: 6%;
+  }
+  .skills-back_end_two {
+    position: relative;
+    top: -49.4%;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    left: 13%;
+  } */
 }
 
 @media (max-width: 545px) {

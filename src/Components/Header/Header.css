@@ -4,7 +4,12 @@
 .dark-mode {
   color: white;
 } */
-
+.name {
+  font-style: 1vw;
+}
+.title {
+  font-style: 0.5vw;
+}
 .img-animate {
   border-radius: 20%;
   width: 100px;
@@ -35,13 +40,10 @@
 .animated-div {
   position: relative;
   width: 100%;
-  /* top: 44%; */
   display: flex;
   text-align: center;
   justify-content: center;
-  /* background-color: red; */
   height: 10px;
-  /* left: 28%; */
   bottom: 20%;
   right: 3.5%;
 }
@@ -100,20 +102,16 @@
 }
 
 /* First maj responsive issue */
-@media (max-width: 650px) {
-  .App-header {
-    /* background-color: #282c34; */
-    background-color: black;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    border: none;
-    text-align: center;
+@media (max-width: 495px) {
+  .animated-div {
+    position: relative;
     width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 10px;
+    bottom: 15%;
+    right: 3.5%;
   }
 }
 
@@ -137,12 +135,12 @@
     position: relative;
     top: -100px;
   } */
-  .arrow {
+  /* .arrow {
     position: absolute;
     bottom: 10%;
     left: 67%;
     transform: translate(-50%, -50%);
-  }
+  } */
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {

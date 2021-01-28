@@ -32,8 +32,8 @@ export default function Header() {
           className="header-text-container"
         >
           <div className="header-text-container">
-            <h1>Robert Balonek</h1>
-            <h2>Software Engineer</h2>
+            <h1 className="name">Robert Balonek</h1>
+            <h2 className="title">Software Engineer</h2>
           </div>
         </Fade>
 

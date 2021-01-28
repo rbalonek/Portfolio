@@ -23,28 +23,12 @@ function App() {
 
       <StickyNavBar />
 
-      <section id="skills">
-        <div className="skills-div">
-          <Skills />
-        </div>
+      <section style={{ height: "100vh", width: "100vw" }} id="skills">
+        <h1 style={{ color: "white" }}>SKILLS</h1>
       </section>
 
-      <section id="projects">
-        <Fade>
-          <h1 className="my-title ">My Projects</h1>
-        </Fade>
-
-        <HappySpace />
-
-        <RestaurantApp />
-
-        <OperaSingerSearch />
-        <div className="extra-space">
-          <EmptySpace />
-        </div>
-        <TrinityPlace />
-
-        <RbOpera />
+      <section style={{ minHeight: "100vh", width: "100vw" }} id="projects">
+        <h2 style={{ color: "white" }}>Projects</h2>
       </section>
 
       <section id="about">
@@ -59,3 +43,35 @@ function App() {
 }
 
 export default App;
+
+// <section id="skills">
+// <div className="skills-div">
+//   <Skills />
+// </div>
+// </section>
+
+// <section id="projects">
+// <Fade>
+//   <h1 className="my-title ">My Projects</h1>
+// </Fade>
+
+// <HappySpace />
+
+// <RestaurantApp />
+
+// <OperaSingerSearch />
+// <div className="extra-space">
+//   <EmptySpace />
+// </div>
+// <TrinityPlace />
+
+// <RbOpera />
+// </section>
+
+// <section id="about">
+// <AboutMe />
+// </section>
+
+// <section id="contact">
+// <Footer />
+// </section>

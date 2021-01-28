@@ -53,7 +53,7 @@
   margin-bottom: 5px;
 }
 
-@media (max-width: 805px) {
+/* @media (max-width: 805px) {
   .icon-img {
     height: 80px;
     border-radius: 30px;
@@ -63,7 +63,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-    /* left: 50%; */
     width: 100%;
     top: -300px;
   }
@@ -71,4 +70,4 @@
     height: 50px;
     display: flex;
   }
-}
+} */

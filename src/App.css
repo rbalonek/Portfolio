@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   /* min-height: 100vh; */
-  min-width: 100vw;
+  min-width: 100%;
   background-color: #222222;
   background: repeating-linear-gradient(
       45deg,
@@ -20,9 +20,9 @@ a {
 .skills-div {
   display: flex;
   justify-content: center;
-  /* height: 1150px; */
-  width: 100vw;
-  height: 100vh;
+  height: 1150px;
+  /* width: 100vw; */
+  /* height: 100vh; */
 }
 .my-title {
   color: white;
@@ -56,3 +56,14 @@ a {
     justify-content: space-around;
   }
 } */
+
+@media (max-width: 771px) {
+  /* .App {
+    min-width: 105%;
+  } */
+}
+@media (max-width: 685px) {
+  /* .App {
+    min-width: 112%;
+  } */
+}
