@@ -34,7 +34,11 @@ function App() {
         <h2 style={{ color: "white" }}>Projects</h2>
         <HappySpace />
       </section>
-
+      <EmptySpace />
+      <EmptySpace />
+      <EmptySpace />
+      <EmptySpace />
+      <EmptySpace />
       <section id="about">
         <AboutMe />
       </section>
