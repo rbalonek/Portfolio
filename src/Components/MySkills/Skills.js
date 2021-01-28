@@ -111,6 +111,7 @@ export default function Skills() {
 
       <div className="skills-back_end_one">
         <AttentionSeeker
+          triggerOnce={true}
           delay={2500}
           className="backend-skills-img"
           effect={"tada"}
@@ -149,6 +150,7 @@ export default function Skills() {
       </div>
       <div className="skills-back_end_two">
         <AttentionSeeker
+          triggerOnce={true}
           delay={2500}
           className="backend-skills-img"
           effect={"tada"}
