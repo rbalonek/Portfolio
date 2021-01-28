@@ -9,6 +9,9 @@ export default function StickyNavBar() {
   const [projectsTextColor, setProjectsTextColor] = useState("text-regular");
   const [aboutTextColor, setAboutTextColor] = useState("text-regular");
   const [contactTextColor, setContactTextColor] = useState("text-regular");
+  // var duration = 500; // milliseconds
+  // var offset = 400; // pixels
+  // zenscroll.to(skills, duration, offset);
 
   const scrollSkills = () => {
     var skills = document.getElementById("skills");
