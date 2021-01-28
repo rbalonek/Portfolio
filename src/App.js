@@ -23,8 +23,11 @@ function App() {
 
       <StickyNavBar />
 
-      <section style={{ height: "100vh", width: "100vw" }} id="skills">
-        <h1 style={{ color: "white" }}>SKILLS</h1>
+      <section
+        style={{ height: "100vh", width: "100vw", marginTop: "5%" }}
+        id="skills"
+      >
+        <Skills />
       </section>
 
       <section style={{ minHeight: "100vh", width: "100vw" }} id="projects">

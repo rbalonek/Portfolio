@@ -6,7 +6,7 @@ import Static from "../../assets/tvnoise.gif";
 
 export default function Skills() {
   return (
-    <div classname="skills-container">
+    <div className="skills-container">
       <div class="cloud-div">
         <Slide triggerOnce={true}>
           <div class="cloud"></div>
@@ -62,17 +62,19 @@ export default function Skills() {
         ></img>
       </div>
       <div className="react-div">
-        <img
-          className="react-img"
-          alt="React"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg"
-        ></img>
+        <div className="react-dive-inner">
+          <img
+            className="react-img"
+            alt="React"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg"
+          ></img>
 
-        <img
-          className="react-native-img"
-          alt="React"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1611784258/Portfolio%20Pics/Logos/ReactNativeKnockout_v54jwe.png"
-        ></img>
+          <img
+            className="react-native-img"
+            alt="React"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1611784258/Portfolio%20Pics/Logos/ReactNativeKnockout_v54jwe.png"
+          ></img>
+        </div>
       </div>
       <div className="skills-front_end">
         <img

@@ -16,14 +16,14 @@
 .text-regular {
   color: white;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 1vw;
   transition-duration: 1s;
 }
 .text-highlighted {
   color: white;
 
   cursor: pointer;
-  font-size: 30px;
+  font-size: 2vw;
   transition-duration: 1s;
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 200% 200%; */
