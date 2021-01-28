@@ -14,7 +14,7 @@ import { Fade, Roll, AttentionSeeker } from "react-awesome-reveal";
 
 export default function HappySpace() {
   return (
-    <div className="happy-space-app-container">
+    <div id="happy-space" className="happy-space-app-container">
       <div className="happy-icon-div">
         <a
           target="_blank"

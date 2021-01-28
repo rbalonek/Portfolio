@@ -9,9 +9,9 @@ export default function StickyNavBar() {
   const [projectsTextColor, setProjectsTextColor] = useState("text-regular");
   const [aboutTextColor, setAboutTextColor] = useState("text-regular");
   const [contactTextColor, setContactTextColor] = useState("text-regular");
-  // var duration = 500; // milliseconds
-  // var offset = 400; // pixels
-  // zenscroll.to(skills, duration, offset);
+  var defaultDuration = 777; // ms
+  var edgeOffset = -2; // px
+  zenscroll.setup(defaultDuration, edgeOffset);
 
   const scrollSkills = () => {
     var skills = document.getElementById("skills");
@@ -19,7 +19,7 @@ export default function StickyNavBar() {
   };
   const scrollProjects = () => {
     var projects = document.getElementById("projects");
-    zenscroll.to(projects);
+    zenscroll.to(projects, null, 800);
   };
   const scrollAbout = () => {
     var about = document.getElementById("about");

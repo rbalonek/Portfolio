@@ -8,12 +8,13 @@ export default function Skills() {
   return (
     <div className="skills-container">
       <div class="cloud-div">
-        <Slide triggerOnce={true}>
+        <Slide delay={1000} triggerOnce={true}>
           <div class="cloud"></div>
         </Slide>
       </div>
       <div className="cloud-icon-div">
         <Fade
+          delay={1000}
           triggerOnce={true}
           cascade
           className="cloud-icon-div"
