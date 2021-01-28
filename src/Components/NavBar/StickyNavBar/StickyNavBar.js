@@ -48,6 +48,11 @@ export default function StickyNavBar() {
       setProjectsTextColor("text-regular");
       setAboutTextColor("text-regular");
       setContactTextColor("text-highlighted");
+    } else {
+      setSkillsTextColor("text-regular");
+      setProjectsTextColor("text-regular");
+      setAboutTextColor("text-regular");
+      setContactTextColor("text-regular");
     }
   });
 
