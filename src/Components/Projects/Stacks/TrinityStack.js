@@ -4,7 +4,6 @@ import "./stacks.css";
 export default function TrinityStack() {
   return (
     <div className="trinity-stack-container">
-      <h2 className="trinity-stack-title">Stack</h2>
       <div className="trinity-stack-imgs">
         <img
           className="cloud-img"

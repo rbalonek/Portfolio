@@ -1,3 +1,6 @@
+.trinity-app-container {
+  height: 100vh;
+}
 .trinity-place-container {
   display: flex;
   width: 100%;
@@ -30,6 +33,8 @@
 .trinity-place-title {
   color: wheat;
   text-align: center;
+  position: relative;
+  top: -5px;
 }
 .trinity-place-img {
   width: 50%;
