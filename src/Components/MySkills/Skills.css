@@ -242,8 +242,12 @@
   justify-content: center;
 }
 .arrow-holder {
-  position: relative;
-  bottom: 200px;
+  /* position: absolute;
+  bottom: 100px; */
+  position: absolute;
+  bottom: 600px;
+  /* width: 100%; */
+  right: 20%;
 }
 .arrow-holder:hover {
   cursor: pointer;
