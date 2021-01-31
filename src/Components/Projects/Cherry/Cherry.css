@@ -11,15 +11,22 @@
   height: 46px;
 }
 .carousel-img {
-  height: 300px;
+  height: 400px;
+  width: 90%;
   margin-bottom: 15px;
 }
 .images-cherry {
   position: relative;
-  top: 10%;
-  display: flex;
+  top: 5%;
+  text-align: -webkit-center;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around; */
+}
+.cherry-img-div {
+  /* width: 500px; */
+  position: relative;
+  /* left: 30vw; */
 }
 
 .hidden {
@@ -42,4 +49,10 @@
 }
 .show-text {
   display: flex;
+}
+.carousel-root {
+  width: 50%;
+}
+.carousel .control-dots {
+  bottom: -9px;
 }

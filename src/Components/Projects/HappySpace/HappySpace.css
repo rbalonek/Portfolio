@@ -162,8 +162,9 @@
   line-height: 0.5;
 }
 .happy-stack-holder {
-  position: relative;
-  bottom: -16%;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
 }
 @media (max-width: 730px) {
   .icon-img {
