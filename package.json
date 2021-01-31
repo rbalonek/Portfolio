@@ -13,6 +13,7 @@
     "react-animated-css": "^1.2.1",
     "react-awesome-reveal": "^3.0.0",
     "react-dom": "^16.13.1",
+    "react-responsive-carousel": "^3.2.11",
     "react-router": "^5.2.0",
     "react-scripts": "3.4.3",
     "zenscroll": "^4.0.2"

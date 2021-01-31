@@ -10,3 +10,36 @@
   z-index: 1;
   height: 46px;
 }
+.carousel-img {
+  height: 300px;
+  margin-bottom: 15px;
+}
+.images-cherry {
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+  /* height: 0;
+  width: 0; */
+}
+.show {
+  right: 40vw;
+  display: flex;
+  height: 60vh;
+  width: 80vw;
+  background-color: seashell;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 2%;
+  align-items: center;
+  justify-content: center;
+}
+.show-text {
+  display: flex;
+}
