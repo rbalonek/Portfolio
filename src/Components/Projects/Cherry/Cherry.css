@@ -1,3 +1,12 @@
 .cherry-container {
   height: 100vh;
 }
+.cherry-icon-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: sticky;
+  top: 4.3%;
+  z-index: 1;
+  height: 46px;
+}
