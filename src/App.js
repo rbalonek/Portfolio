@@ -32,9 +32,8 @@ function App() {
 
       <section style={{ minHeight: "100vh", width: "100vw" }} id="projects">
         <HappySpace />
-        <EmptySpace />
+
         <TrinityPlace />
-        <EmptySpace />
       </section>
 
       <section id="about">

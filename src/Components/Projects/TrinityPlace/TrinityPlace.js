@@ -74,16 +74,18 @@ export default function TrinityPlace() {
           </div>
         </Slide>
       </div>
-      <img
-        className="img-trinity-app"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-1_e2d9xi.png"
-        alt=""
-      />
-      <img
-        className="img-trinity-app-right"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-2_gx7ytc.png"
-        alt=""
-      />
+      <div className="cell-img-trinity">
+        <img
+          className="img-trinity-app"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-1_e2d9xi.png"
+          alt=""
+        />
+        <img
+          className="img-trinity-app-right"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1599500206/Portfolio%20Pics/Trinity-cell-2_gx7ytc.png"
+          alt=""
+        />
+      </div>
       <TrinityStack />
     </div>
   );

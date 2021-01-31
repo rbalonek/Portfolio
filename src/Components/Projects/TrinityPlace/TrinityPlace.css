@@ -50,6 +50,11 @@
 .img-trinity-app-right {
   display: none;
 }
+.cell-img-trinity {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
 
 /*               RESPONSIVE      */
 /* First maj responsive issue */
@@ -71,7 +76,7 @@
     height: 200px;
     position: relative;
     /* top: -100px; */
-    left: 150px;
+    /* left: 150px; */
     display: unset;
   }
   .img-trinity-app-right {
@@ -79,16 +84,16 @@
     height: 200px;
     position: relative;
     /* top: -100px; */
-    left: 300px;
+    /* left: 300px; */
     display: unset;
   }
   .img-trinity-app:hover {
-    transform: scale(3);
+    transform: scale(2);
     z-index: 999;
   }
 
   .img-trinity-app-right:hover {
-    transform: scale(3);
+    transform: scale(2);
     z-index: 999;
   }
 }
@@ -96,7 +101,7 @@
 @media (max-width: 378px) {
   .img-trinity-app-right {
     /* top: -100px; */
-    left: 75px;
+    /* left: 75px; */
   }
 }
 
