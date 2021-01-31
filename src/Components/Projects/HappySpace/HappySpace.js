@@ -1,6 +1,7 @@
 import React from "react";
 import "./HappySpace.css";
 import HappyStack from "../Stacks/HappyStack";
+import zenscroll from "zenscroll";
 
 import icon from "../../../assets/icon.png";
 import CatScreen from "../../../assets/CatScreen.png";
@@ -13,6 +14,15 @@ import AppStore from "../../../assets/downloadAppStore.png";
 import { Fade, Roll, AttentionSeeker } from "react-awesome-reveal";
 
 export default function HappySpace() {
+  const clickedArrowUp = () => {
+    var skills = document.getElementById("skills");
+    zenscroll.to(skills);
+  };
+  const clickedArrowDown = () => {
+    var cherry = document.getElementById("cherry");
+    zenscroll.to(cherry);
+  };
+
   return (
     <div id="happy-space" className="happy-space-app-container">
       <div className="happy-icon-div">
@@ -27,8 +37,14 @@ export default function HappySpace() {
             alt=""
           />
         </a>
+        <div onClick={clickedArrowUp} className="arrow-nav-up">
+          <span></span>
+        </div>
         <div className="happy-title-holder">
           <h1 className="happy-app-title">Happy-Space</h1>
+        </div>
+        <div onClick={clickedArrowDown} className="arrow-nav-down">
+          <span></span>
         </div>
         <a
           target="_blank"

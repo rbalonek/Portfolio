@@ -15,6 +15,7 @@ import RbOpera from "./Components/Projects/RbOpera/RbOpera.jsx";
 import HappySpace from "./Components/Projects/HappySpace/HappySpace";
 import { Fade } from "react-awesome-reveal";
 import StickyNavBar from "./Components/NavBar/StickyNavBar/StickyNavBar";
+import Cherry from "./Components/Projects/Cherry/Cherry";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
 
       <section id="projects">
         <HappySpace />
+        <Cherry />
       </section>
 
       <section id="about">
