@@ -62,6 +62,26 @@ export default function Cherry() {
           </div>
         </Carousel>
       </div>
+      <div className="about-holder">
+        <div className="about-cherry">
+          <p>
+            This site was super fun to build. I was on my own so I started with
+            a basic wireframe provided to me by the clients.{" "}
+          </p>
+          <p>
+            They took some samples from other websites they liked and wanted me
+            to replicate some key features including arrows pointing in the
+            direction the user wants to move, modals popping in and out with
+            project info, site organization for projects, and a masonry grid for
+            their work that elegantly faded in.
+          </p>
+          <p>
+            They also wanted to be able to upload videos to a database and have
+            the opened hamburger menu, and background of their logo match the
+            randomized video for each user visit.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
