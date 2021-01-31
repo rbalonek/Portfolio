@@ -30,10 +30,8 @@ function App() {
         <Skills />
       </section>
 
-      <section style={{ minHeight: "100vh", width: "100vw" }} id="projects">
+      <section id="projects">
         <HappySpace />
-
-        <TrinityPlace />
       </section>
 
       <section id="about">

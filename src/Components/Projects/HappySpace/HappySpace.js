@@ -82,7 +82,7 @@ export default function HappySpace() {
           </p>
           <p className="happy-text">
             It was built in under a week using 5 different APIs, 4 screens, and
-            a homepage.
+            a homepage with some fun animations.
           </p>
           <p className="happy-text">
             My main goal was to get ANYTHING onto the app store, but I did have
