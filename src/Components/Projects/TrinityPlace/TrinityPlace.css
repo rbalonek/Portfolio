@@ -1,11 +1,14 @@
 .trinity-app-container {
-  height: 100vh;
+  min-height: 100vh;
+  /* position: relative; */
 }
 .trinity-place-container {
   display: flex;
   width: 100%;
   height: 40vh;
   height: fit-content;
+  position: relative;
+  top: 50px;
 }
 .content-trinity-place {
   background-color: #c9c9d2;

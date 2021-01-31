@@ -6,15 +6,15 @@ import { Carousel } from "react-responsive-carousel";
 import Stack from "../Stacks/Stack";
 
 export default function Cherry() {
-  const [modalOne, toggleModalOne] = useState("hidden");
-  const [modalTwo, toggleModalTwo] = useState("hidden");
-  const [modalThree, toggleModalThree] = useState("hidden");
-  const [modalFour, toggleModalFour] = useState("hidden");
+  // const [modalOne, toggleModalOne] = useState("hidden");
+  // const [modalTwo, toggleModalTwo] = useState("hidden");
+  // const [modalThree, toggleModalThree] = useState("hidden");
+  // const [modalFour, toggleModalFour] = useState("hidden");
   return (
     <div id="cherry" className="cherry-container">
       <ProjectHeader
         navUp={"happy-space"}
-        navDown={"about"}
+        navDown={"trinity"}
         github={"https://github.com/rbalonek/cherry"}
         title={"Cherry Project"}
         website={"https://cherry-site.netlify.app/"}

@@ -34,6 +34,7 @@ function App() {
       <section id="projects">
         <HappySpace />
         <Cherry />
+        <TrinityPlace />
       </section>
 
       <section id="about">

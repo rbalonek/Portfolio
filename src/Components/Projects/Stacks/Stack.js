@@ -2,7 +2,7 @@ import React from "react";
 import "./stacks.css";
 import Native from "../../../assets/reactNative.png";
 
-export default function HappyStack(props) {
+export default function Stack(props) {
   const imgArray = props.images;
 
   console.log(imgArray);
