@@ -1,10 +1,15 @@
 import React from "react";
 import "./Skills.css";
-import { Animated } from "react-animated-css";
+// import { Animated } from "react-animated-css";
 import { Slide, Fade, AttentionSeeker } from "react-awesome-reveal";
 import Static from "../../assets/tvnoise.gif";
+import zenscroll from "zenscroll";
 
 export default function Skills() {
+  const clickedArrow = () => {
+    var projects = document.getElementById("projects");
+    zenscroll.to(projects);
+  };
   return (
     <div className="skills-container">
       <div class="cloud-div">
@@ -179,6 +184,13 @@ export default function Skills() {
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/ruby-plain-wordmark.b065b718_pxbhrj.svg"
           ></img>
         </AttentionSeeker>
+      </div>
+      <div onClick={clickedArrow} className="arrow-holder">
+        <div className="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   );
