@@ -92,7 +92,7 @@
 /*               RESPONSIVE      */
 
 /* Larger computer screen height */
-@media (max-height: 850px) {
+@media (max-width: 850px) {
   .App-header {
     /* background-color: #282c34; */
     background-color: black;
@@ -121,7 +121,7 @@
     right: 3.5%;
   }
   .arrow {
-    position: absolute;
+    position: relative;
     bottom: -520px;
     left: 122vw;
     transform: translate(-50%, -50%);
