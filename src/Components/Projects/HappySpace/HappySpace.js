@@ -85,7 +85,16 @@ export default function HappySpace() {
           </AttentionSeeker>
         </div>
         <div className="happy-stack-holder">
-          <HappyStack />
+          <HappyStack
+            images={[
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1611784258/Portfolio%20Pics/Logos/ReactNativeKnockout_v54jwe.png",
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/html5-plain-wordmark.67d97895_kehxm9.svg",
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/js-logo_xrxnfl.png",
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/css-logo_scrgq5.png",
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/postman-logo_rr22mr.png",
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+            ]}
+          />
         </div>
       </div>
     </div>
