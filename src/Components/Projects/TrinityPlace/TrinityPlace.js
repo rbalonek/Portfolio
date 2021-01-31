@@ -11,7 +11,7 @@ export default function TrinityPlace() {
     <div id="trinity" className="trinity-app-container">
       <ProjectHeader
         navUp={"cherry"}
-        navDown={"about"}
+        navDown={"restaurant-app"}
         github={"https://github.com/rbalonek/trinity-place-shelter"}
         title={"Trinity Place Shelter"}
         website={"https://trinity-place-shelter.netlify.app/"}
