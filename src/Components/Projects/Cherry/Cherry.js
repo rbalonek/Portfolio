@@ -3,6 +3,7 @@ import ProjectHeader from "../../Header/ProjectHeader/ProjectHeader";
 import "./Cherry.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Stack from "../Stacks/Stack";
 
 export default function Cherry() {
   const [modalOne, toggleModalOne] = useState("hidden");
@@ -81,6 +82,17 @@ export default function Cherry() {
             randomized video for each user visit.
           </p>
         </div>
+      </div>
+      <div className="stack-holder">
+        <Stack
+          images={[
+            "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/html5-plain-wordmark.67d97895_kehxm9.svg",
+            "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/js-logo_xrxnfl.png",
+            "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/css-logo_scrgq5.png",
+            "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/postman-logo_rr22mr.png",
+            "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+          ]}
+        />
       </div>
     </div>
   );

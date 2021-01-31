@@ -70,3 +70,8 @@
   border-radius: 10px;
   padding: 10px;
 }
+.stack-holder {
+  position: relative;
+  width: 100%;
+  bottom: -10%;
+}

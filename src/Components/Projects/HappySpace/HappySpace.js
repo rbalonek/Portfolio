@@ -1,6 +1,6 @@
 import React from "react";
 import "./HappySpace.css";
-import HappyStack from "../Stacks/HappyStack";
+import Stack from "../Stacks/Stack";
 import zenscroll from "zenscroll";
 
 import icon from "../../../assets/icon.png";
@@ -85,7 +85,7 @@ export default function HappySpace() {
           </AttentionSeeker>
         </div>
         <div className="happy-stack-holder">
-          <HappyStack
+          <Stack
             images={[
               "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1611784258/Portfolio%20Pics/Logos/ReactNativeKnockout_v54jwe.png",
               "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/html5-plain-wordmark.67d97895_kehxm9.svg",
