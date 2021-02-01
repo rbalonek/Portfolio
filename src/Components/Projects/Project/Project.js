@@ -8,8 +8,8 @@ export default function Project(props) {
   return (
     <div id={props.id} className="project-container">
       <ProjectHeader
-        // navUp={props.navUp}
-        // navDown={props.navDown}
+        navUp={props.navUp}
+        navDown={props.navDown}
         github={props.github}
         title={props.title}
         website={props.website}

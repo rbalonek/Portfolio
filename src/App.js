@@ -92,7 +92,7 @@ function App() {
             <Project
               id={"cherry"}
               navUp={"happy-space"}
-              // navDown={"trinity"}
+              navDown={"trinity"}
               github={"https://github.com/rbalonek/cherry"}
               title={"Cherry Project"}
               website={"https://cherry-site.netlify.app/"}
@@ -120,7 +120,7 @@ function App() {
             <Project
               id={"trinity"}
               navUp={"cherry"}
-              // navDown={"trinity"}
+              navDown={"restaurant-app"}
               github={"https://github.com/rbalonek/trinity-place-shelter"}
               title={"Trinity Place Shelter"}
               website={"https://trinity-place-shelter.netlify.app/"}
@@ -151,7 +151,7 @@ function App() {
             <Project
               id={"restaurant-app"}
               navUp={"trinity"}
-              // navDown={"trinity"}
+              navDown={"opera-search"}
               github={"https://github.com/rbalonek/Restaurant-App"}
               title={"Restaurant App"}
               website={"https://balonek-restaurant-app.netlify.app/LiveMenu"}
@@ -176,6 +176,36 @@ function App() {
               ]}
             />
           </div>
+
+          <div style={{ position: "relative" }}>
+            <Project
+              id={"opera-search"}
+              navUp={"restaurant-app"}
+              navDown={"about"}
+              github={"https://github.com/rbalonek/opera-singer-search"}
+              title={"Opera Singer Search"}
+              website={"https://opera-singer-search.netlify.app/operas"}
+              carousel={[
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604968788/Portfolio%20Pics/Screen_Shot_2020-11-09_at_4.29.23_PM_za1mww.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/r_45/v1600955664/Portfolio%20Pics/singer-search-cell-Operas_dzgw31.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/r_45/v1600955664/Portfolio%20Pics/singer-search-cell-Singers-page_etlfsz.png",
+              ]}
+              text={[
+                "Opera-Singer-Search is a full stack application using a Rails back end and React front end with fully functioning user authentication.",
+                "Singers can register / login and add opera roles to their resume so when you click on an opera, the singers name will appear under the 'roles' tab.",
+                "Singers can also create, update, and destroy blog-style recent performances on their singer page and it will appear on their profile page.",
+              ]}
+              stack={[
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/heroku-plain-wordmark.6fd6c3b7_pgrfhc.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/rails-logo_f3zkrq.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/ruby-plain-wordmark.b065b718_pxbhrj.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+              ]}
+            />
+          </div>
         </section>
 
         <section class="child" id="about">
@@ -192,35 +222,32 @@ function App() {
 
 export default App;
 
-// <div className="App">
-//       <div class="container">
-//         <section class="child">
-//           <Header />
-//         </section>
-//         <section id="skills" class="child">
-//           <Skills />
-//         </section>
-//         <StickyNavBar />
-//         <section id="projects" class="child">
-//           <div>
-//             <HappySpace />
-//           </div>
-//         </section>
-//         <section class="child">
-//           <Cherry />
-//         </section>
-//         <section class="child">
-//           <TrinityPlace />
-//         </section>
-//         <section class="child">
-//           <RestaurantApp />
-//         </section>
-//         <section class="child" id="about">
-//           <AboutMe />
-//         </section>
-
-//         <section class="child" id="contact">
-//           <Footer />
-//         </section>
-//       </div>
-//     </div>
+// <div style={{ position: "relative" }}>
+// <Project
+//   id={""}
+//   navUp={""}
+//   // navDown={""}
+//   github={""}
+//   title={""}
+//   website={""}
+//   carousel={[
+//     "",
+//     "",
+//     "",
+//   ]}
+//   text={[
+//     "",
+//     "",
+//     "",
+//   ]}
+//   stack={[
+//     "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
+//     "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+//     "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/html5-plain-wordmark.67d97895_kehxm9.svg",
+//     "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/js-logo_xrxnfl.png",
+//     "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/css-logo_scrgq5.png",
+//     "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/postman-logo_rr22mr.png",
+//     "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+//   ]}
+// />
+// </div>
