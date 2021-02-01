@@ -17,13 +17,16 @@ export default function Header() {
   //   }
   // };
 
-  const clickedHeader = () => {
-    var skills = document.getElementById("skills");
-    zenscroll.to(skills);
-  };
+  // const clickedHeader = () => {
+  //   var skills = document.getElementById("skills");
+  //   zenscroll.to(skills);
+  // };
 
   return (
-    <div className="container" onClick={clickedHeader}>
+    <div
+      className="container"
+      // onClick={clickedHeader}
+    >
       <header className="App-header">
         <Fade
           triggerOnce={true}

@@ -21,35 +21,39 @@ function App() {
   return (
     <div className="App">
       <Header />
-
-      <StickyNavBar />
-
-      <section
-        style={{ height: "100vh", width: "100vw", marginTop: "5%" }}
-        id="skills"
-      >
-        <Skills />
-      </section>
-
-      <section id="projects">
-        <HappySpace />
-        <Cherry />
-        <TrinityPlace />
-        <RestaurantApp />
-      </section>
-
-      <section id="about">
-        <AboutMe />
-      </section>
-
-      <section id="contact">
-        <Footer />
-      </section>
     </div>
   );
 }
 
 export default App;
+
+// <div className="App">
+// <Header />
+
+// <StickyNavBar />
+
+// <section
+//   style={{ height: "100vh", width: "100vw", marginTop: "5%" }}
+//   id="skills"
+// >
+//   <Skills />
+// </section>
+
+// <section id="projects">
+//   <HappySpace />
+//   <Cherry />
+//   <TrinityPlace />
+//   <RestaurantApp />
+// </section>
+
+// <section id="about">
+//   <AboutMe />
+// </section>
+
+// <section id="contact">
+//   <Footer />
+// </section>
+// </div>
 
 // <section id="skills">
 // <div className="skills-div">
