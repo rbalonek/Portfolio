@@ -27,10 +27,11 @@ a {
 .skills-div {
   display: flex;
   justify-content: center;
-  height: 1150px;
+  /* height: 1150px; */
   /* width: 100vw; */
-  /* height: 100vh; */
+  height: 100vh;
 }
+
 .my-title {
   color: white;
   align-self: center;
@@ -40,7 +41,24 @@ a {
   font-family: monospace;
   font-size: xxx-large;
 }
+.app-store-holder {
+  position: absolute;
+  top: 28%;
+  left: 5%;
+}
 
+.app-store-img {
+  height: 50px;
+}
+.app-icon-holder {
+  position: absolute;
+  top: 18%;
+  left: 8%;
+}
+.app-icon-img {
+  height: 70px;
+  border-radius: 8%;
+}
 #projects {
 }
 
