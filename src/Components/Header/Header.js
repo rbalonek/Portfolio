@@ -46,10 +46,12 @@ export default function Header() {
         </div>
 
         <Fade delay={2800} duration={2000} triggerOnce={true}>
-          <div className="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div className="cell-arrow-holder">
+            <div className="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </Fade>
       </header>

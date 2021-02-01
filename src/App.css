@@ -102,8 +102,64 @@ a {
     border-radius: 8%;
   }
 }
-@media (max-width: 685px) {
-  /* .App {
-    min-width: 112%;
-  } */
+@media (max-width: 400px) {
+  .app-store-holder {
+    position: absolute;
+    top: 23%;
+    left: 3%;
+  }
+
+  .app-store-img {
+    height: 25px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .app-icon-img {
+    height: 35px;
+    border-radius: 18%;
+  }
+}
+@media (max-width: 360px) {
+  .app-store-holder {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  }
+
+  .app-store-img {
+    height: 25px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .app-icon-img {
+    height: 35px;
+    border-radius: 18%;
+  }
+}
+
+@media (max-width: 330px) {
+  .app-store-holder {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  }
+
+  .app-store-img {
+    height: 25px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .app-icon-img {
+    height: 35px;
+    border-radius: 18%;
+  }
 }

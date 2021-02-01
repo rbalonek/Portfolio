@@ -26,10 +26,11 @@ function App() {
         <section>
           <Header />
         </section>
+        <StickyNavBar />
         <section id="skills">
           <Skills />
         </section>
-        <StickyNavBar />
+
         <section id="projects">
           <div style={{ position: "relative" }}>
             <Project

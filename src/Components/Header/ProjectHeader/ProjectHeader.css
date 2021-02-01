@@ -125,3 +125,54 @@
     margin: -10px;
   }
 }
+
+@media (max-width: 380px) {
+  .github-icon-nav {
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    border-radius: 80%;
+  }
+  .website-icon-nav {
+    height: 35px;
+    position: relative;
+    top: 5px;
+    right: 0px;
+    border-radius: 80%;
+  }
+  .arrow-nav-down {
+    position: absolute;
+    bottom: 45%;
+    right: 13%;
+  }
+  .arrow-nav-down:hover {
+    cursor: pointer;
+  }
+  .arrow-nav-down span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #06a8ff;
+    border-right: 5px solid #06a8ff;
+    transform: rotate(45deg);
+    margin: -10px;
+  }
+  .arrow-nav-up {
+    position: absolute;
+    bottom: 25%;
+    left: 16%;
+  }
+  .arrow-nav-up:hover {
+    cursor: pointer;
+  }
+  .arrow-nav-up span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #06a8ff;
+    border-right: 5px solid #06a8ff;
+    transform: rotate(-135deg);
+    margin: -10px;
+  }
+}
