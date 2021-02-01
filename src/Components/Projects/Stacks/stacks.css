@@ -67,6 +67,9 @@
     position: relative;
     top: 283px;
   }
+  .cloud-img-footer {
+    height: 35px;
+  }
 }
 
 @media (max-width: 414px) {

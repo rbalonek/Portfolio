@@ -50,9 +50,7 @@
 .show-text {
   display: flex;
 }
-.carousel-root {
-  width: 50%;
-}
+
 .about-holder {
   display: flex;
   justify-content: center;
@@ -73,5 +71,5 @@
 .stack-holder {
   position: relative;
   width: 100%;
-  bottom: -10%;
+  bottom: -14%;
 }

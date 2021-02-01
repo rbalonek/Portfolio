@@ -16,14 +16,22 @@
 a {
   text-decoration: none;
 }
+.container {
+  /* scroll-snap-type: y proximity; */
+}
+
+.child {
+  /* scroll-snap-align: start; */
+}
 
 .skills-div {
   display: flex;
   justify-content: center;
-  height: 1150px;
+  /* height: 1150px; */
   /* width: 100vw; */
-  /* height: 100vh; */
+  height: 100vh;
 }
+
 .my-title {
   color: white;
   align-self: center;
@@ -33,7 +41,24 @@ a {
   font-family: monospace;
   font-size: xxx-large;
 }
+.app-store-holder {
+  position: absolute;
+  top: 28%;
+  left: 5%;
+}
 
+.app-store-img {
+  height: 50px;
+}
+.app-icon-holder {
+  position: absolute;
+  top: 18%;
+  left: 8%;
+}
+.app-icon-img {
+  height: 70px;
+  border-radius: 8%;
+}
 #projects {
 }
 
@@ -58,12 +83,83 @@ a {
 } */
 
 @media (max-width: 771px) {
-  /* .App {
-    min-width: 105%;
-  } */
+  .app-store-holder {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+  }
+
+  .app-store-img {
+    height: 30px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+  }
+  .app-icon-img {
+    height: 50px;
+    border-radius: 8%;
+  }
 }
-@media (max-width: 685px) {
-  /* .App {
-    min-width: 112%;
-  } */
+@media (max-width: 400px) {
+  .app-store-holder {
+    position: absolute;
+    top: 23%;
+    left: 3%;
+  }
+
+  .app-store-img {
+    height: 25px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .app-icon-img {
+    height: 35px;
+    border-radius: 18%;
+  }
+}
+@media (max-width: 360px) {
+  .app-store-holder {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  }
+
+  .app-store-img {
+    height: 25px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .app-icon-img {
+    height: 35px;
+    border-radius: 18%;
+  }
+}
+
+@media (max-width: 330px) {
+  .app-store-holder {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  }
+
+  .app-store-img {
+    height: 25px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 9%;
+  }
+  .app-icon-img {
+    height: 35px;
+    border-radius: 18%;
+  }
 }
