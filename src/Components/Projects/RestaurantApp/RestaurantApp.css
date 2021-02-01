@@ -1,9 +1,12 @@
 .restaurant-container {
+  height: 85vh;
   background-color: #c9c9d2;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
   justify-content: space-between;
   width: 100%;
+  position: relative;
+  top: 40px;
 }
 .smaller-restaurant-img {
   display: none;
@@ -32,6 +35,7 @@
   height: min-content;
   align-self: center;
   border-radius: 10px;
+  text-align: center;
 }
 .p-restaurant-app {
   margin: 10px;
@@ -42,6 +46,7 @@
   border-radius: 60%;
   position: relative;
   top: 10px;
+  left: 50px;
 }
 .github-icon:hover {
   transform: scale(1.3);
@@ -52,6 +57,7 @@
   border-radius: 90%;
   position: relative;
   top: 15px;
+  right: 50px;
 }
 .website-icon:hover {
   transform: scale(1.3);

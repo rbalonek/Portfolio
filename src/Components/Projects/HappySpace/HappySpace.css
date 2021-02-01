@@ -1,26 +1,131 @@
-.happy-container {
+.happy-space-app-container {
+  height: 100vh;
+}
+
+.happy-space-container {
+  /* background-color: #c9c9d2; */
+  background-color: #222222;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
   flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: 4%;
+  height: 100%;
 }
+.happy-icon-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: sticky;
+  top: 4.3%;
+  z-index: 1;
+  height: 46px;
+}
+
+.happy-github-icon {
+  height: 50px;
+  border-radius: 60%;
+  position: relative;
+  top: -5px;
+  left: 10px;
+}
+
+.happy-github-icon:hover {
+  transform: scale(1.3);
+  transition: 250ms all;
+  transition: all 0.2s ease-in-out;
+}
+.happy-website-icon {
+  height: 40px;
+  border-radius: 90%;
+  position: relative;
+  /* top: 15px; */
+  right: 10px;
+}
+.happy-website-icon:hover {
+  transform: scale(1.3);
+  transition: 250ms all;
+}
+.arrow-nav-up {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  /* transform: translate(-50%, -50%); */
+}
+.arrow-nav-up:hover {
+  cursor: pointer;
+}
+.arrow-nav-up span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #06a8ff;
+  border-right: 5px solid #06a8ff;
+  transform: rotate(-135deg);
+  margin: -10px;
+  /* animation: animate-nav 2s infinite; */
+}
+
+.arrow-nav-down {
+  position: absolute;
+  bottom: 35%;
+  right: 25%;
+  /* transform: translate(-50%, -50%); */
+}
+.arrow-nav-down:hover {
+  cursor: pointer;
+}
+.arrow-nav-down span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #06a8ff;
+  border-right: 5px solid #06a8ff;
+  transform: rotate(45deg);
+  margin: -10px;
+  /* animation: animate-nav 2s infinite; */
+}
+
+/* @keyframes animate-nav {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+} */
+
 .icon-img {
   height: 100px;
   border-radius: 30px;
   margin-top: 10px;
 }
-.happy-space-container {
-  background-color: #c9c9d2;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.happy-title-holder {
+  position: sticky;
+  top: 0;
 }
+.happy-app-title {
+  color: wheat;
+  text-align: center;
+  z-index: 999;
+  position: relative;
+  bottom: 10px;
+}
+
 .Container-happy-space {
   height: 150px;
   display: flex;
 }
 .cell-img-container {
   position: relative;
-  top: 100px;
+  top: 15vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -29,6 +134,7 @@
   height: 300px;
   border-radius: 10px;
 }
+
 .icon-container {
   position: absolute;
   display: flex;
@@ -37,38 +143,59 @@
   width: 100%;
 }
 .Text-Container-happy-space {
-  width: 90%;
+  /* width: 90%; */
   position: relative;
-  bottom: 20px;
+  bottom: -15%;
   background-color: white;
   text-align: center;
   align-self: center;
   box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 10px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .download-app-store {
-  height: 100px;
+  height: 50px;
   margin-bottom: 5px;
 }
-
-@media (max-width: 805px) {
+.happy-text {
+  line-height: 0.5;
+}
+.happy-stack-holder {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+@media (max-width: 730px) {
   .icon-img {
-    height: 80px;
-    border-radius: 30px;
-    margin-top: 10px;
-  }
-  .icon-container {
+    height: 70px;
+    border-radius: 20px;
     position: relative;
-    display: flex;
-    justify-content: center;
-    /* left: 50%; */
-    width: 100%;
-    top: -300px;
+    top: 10px;
   }
-  .Container-happy-space {
-    height: 50px;
-    display: flex;
+  .cellImg {
+    height: 150px;
+  }
+  .happy-text {
+    font-size: 3vw;
+    line-height: 1;
+  }
+  .happy-stack-holder {
+    position: relative;
+    top: 20%;
+  }
+  .happy-github-icon {
+    height: 40px;
+    border-radius: 60%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+  .happy-website-icon {
+    height: 30px;
+    border-radius: 90%;
+    position: relative;
+    top: 10px;
+    right: 5px;
   }
 }

@@ -1,26 +1,134 @@
-.fake-content{
+.fake-content {
   color: white;
 }
 
-.div-shape{
-  background-color:rgb(250, 255, 249);
-  width:250px;
-  height:150px;
+.div-shape {
+  background-color: rgb(250, 255, 249);
+  width: 250px;
+  height: 150px;
   text-align: center;
   border-radius: 25%;
   margin-left: 50px;
   box-shadow: 1px 2px 2px 6px #cecece;
 }
 
-.empty-space{
+.empty-space {
   width: 100%;
-  height: 250px;
+  height: 100vh;
+  background-color: white;
 }
 
-@media (max-width: 600px) 
-and (-webkit-min-device-pixel-ratio: 2){
-  .empty-space{
-    /* width: 100%;
-    height: 300px; */
+@media (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+  .empty-space {
+    width: 100%;
+    /* height: 1000px; */
   }
+}
+
+/*  Tutorial Cube */
+
+/* // cube length */
+body {
+  text-align: center;
+  /* padding: 50px; */
+}
+.scene {
+  display: inline-block;
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+
+  perspective: 600px;
+}
+.cube {
+  position: relative;
+  width: inherit;
+  height: inherit;
+
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+.cube-face {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background: red;
+  opacity: 0.8;
+}
+/* // faces */
+.cube-face-front {
+  background: yellow;
+  transform: translate3d(0, 0, 150px/2);
+  /* background-image: ; */
+}
+.cube-face-back {
+  background: black;
+  transform: rotateY(180deg) translate3d(0, 0, 150px/2);
+  /* background-image: ; */
+}
+.cube-face-left {
+  background: green;
+  transform: rotateY(-90deg) translate3d(0, 0, 150px/2);
+  /* background-image: ; */
+}
+.cube-face-right {
+  background: magenta;
+  transform: rotateY(90deg) translate3d(0, 0, 150px/2);
+  /* background-image: ; */
+}
+.cube-face-top {
+  background: blue;
+  transform: rotateX(90deg) translate3d(0, 0, 150px/2);
+  /* background-image: ; */
+}
+.cube-face-bottom {
+  background: red;
+  transform: rotateX(-90deg) translate3d(0, 0, 150px/2);
+  /* background-image: ; */
+}
+/* // controls */
+#radio-back:checked ~ .scene .cube {
+  transform: rotateY(180deg);
+}
+#radio-left:checked ~ .scene .cube {
+  transform: rotateY(90deg);
+}
+#radio-right:checked ~ .scene .cube {
+  transform: rotateY(-90deg);
+}
+#radio-top:checked ~ .scene .cube {
+  transform: rotateX(-90deg);
+}
+#radio-bottom:checked ~ .scene .cube {
+  transform: rotateX(90deg);
+}
+/* // Apply backgrounds */
+._3dface--front {
+  background: url(https://2.bp.blogspot.com/-JxKfUObT4L8/UYYaRhRNJmI/AAAAAAAAAUY/243IlIOKj2c/s320/brahama.jpg);
+  background-size: 100%;
+}
+
+._3dface--left {
+  background: url(https://res.cloudinary.com/bobalobbadingdong/image/upload/v1609020597/Cherry/Chi/Common-01_rwsva4.jpg);
+  background-size: auto 100%;
+}
+
+._3dface--right {
+  background: url(https://res.cloudinary.com/bobalobbadingdong/image/upload/v1609020487/Cherry/Chi/Portfolio-2019-FILMTV_281_bddqqk.jpg);
+  background-size: auto 100%;
+}
+
+._3dface--top {
+  background: url(https://res.cloudinary.com/bobalobbadingdong/image/upload/v1609009465/Cherry/Chi/1st-carousel-Portfolio-2019-FILMTV_229_ncm6zp.jpg);
+  background-size: auto 100%;
+}
+
+._3dface--bottom {
+  background: url(https://res.cloudinary.com/bobalobbadingdong/image/upload/v1609009481/Cherry/Chi/TheChi-S2-03_h25c3d.jpg);
+  background-size: auto 100%;
+}
+
+._3dface--back {
+  background: url(https://res.cloudinary.com/bobalobbadingdong/image/upload/v1609196054/Cherry/Chi/CherryOg_sxcbbr.png);
+  background-size: auto 100%;
 }
