@@ -3,12 +3,14 @@ import "./StickyNavBar.css";
 import { Fade } from "react-awesome-reveal";
 import zenscroll from "zenscroll";
 import inView from "element-in-view";
+import { Animated } from "react-animated-css";
 
 export default function StickyNavBar() {
   const [skillsTextColor, setSkillsTextColor] = useState("text-regular");
   const [projectsTextColor, setProjectsTextColor] = useState("text-regular");
   const [aboutTextColor, setAboutTextColor] = useState("text-regular");
   const [contactTextColor, setContactTextColor] = useState("text-regular");
+
   var defaultDuration = 777; // ms
   var edgeOffset = -2; // px
   zenscroll.setup(defaultDuration, edgeOffset);

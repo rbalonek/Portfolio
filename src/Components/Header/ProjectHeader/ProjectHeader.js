@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProjectHeader.css";
 import zenscroll from "zenscroll";
+import { Animated } from "react-animated-css";
 
 export default function ProjectHeader(props) {
+  const [isShowing, toggleIsShowing] = useState(true);
+
   const clickedArrowUp = () => {
     var navUp = document.getElementById(`${props.navUp}`);
     zenscroll.to(navUp);
+    toggleIsShowing(false);
+    setTimeout(() => {
+      toggleIsShowing(true);
+    }, 500);
   };
   const clickedArrowDown = () => {
     var navDown = document.getElementById(`${props.navDown}`);
     zenscroll.to(navDown);
+    toggleIsShowing(false);
+    setTimeout(() => {
+      toggleIsShowing(true);
+    }, 500);
   };
   return (
     <div className="proj-icon-div">
@@ -24,7 +35,15 @@ export default function ProjectHeader(props) {
         <span></span>
       </div>
       <div className="title-holder">
-        <h1 className="app-title">{props.title}</h1>
+        <Animated
+          animationIn="zoomIn"
+          animationOut="zoomOut"
+          animationInDuration={1000}
+          animationOutDuration={1000}
+          isVisible={isShowing}
+        >
+          <h1 className="app-title">{props.title}</h1>
+        </Animated>
       </div>
       <div onClick={clickedArrowDown} className="arrow-nav-down">
         <span></span>
