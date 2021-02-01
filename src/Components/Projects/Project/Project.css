@@ -19,7 +19,7 @@
 }
 .split-left {
   /* background-color: blue; */
-  width: 50%;
+  /* width: 50%; */
   height: 100%;
   display: flex;
   align-items: center;
@@ -58,6 +58,11 @@
   max-height: 400px;
   object-fit: contain;
 }
-/* .carousel-root {
-  width: 50%;
-} */
+.carousel-root {
+  width: 100%;
+}
+@media (max-width: 771px) {
+  .project-text {
+    font-size: 10.5px;
+  }
+}

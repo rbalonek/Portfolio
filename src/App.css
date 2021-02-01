@@ -83,9 +83,24 @@ a {
 } */
 
 @media (max-width: 771px) {
-  /* .App {
-    min-width: 105%;
-  } */
+  .app-store-holder {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+  }
+
+  .app-store-img {
+    height: 30px;
+  }
+  .app-icon-holder {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+  }
+  .app-icon-img {
+    height: 50px;
+    border-radius: 8%;
+  }
 }
 @media (max-width: 685px) {
   /* .App {

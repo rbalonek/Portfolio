@@ -38,3 +38,90 @@
   transition: 250ms all;
   transition: all 0.2s ease-in-out;
 }
+.arrow-nav-down {
+  position: absolute;
+  bottom: 35%;
+  right: 25%;
+  /* transform: translate(-50%, -50%); */
+}
+.arrow-nav-down:hover {
+  cursor: pointer;
+}
+.arrow-nav-down span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #06a8ff;
+  border-right: 5px solid #06a8ff;
+  transform: rotate(45deg);
+  margin: -10px;
+  /* animation: animate-nav 2s infinite; */
+}
+.arrow-nav-up {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+}
+.arrow-nav-up:hover {
+  cursor: pointer;
+}
+.arrow-nav-up span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #06a8ff;
+  border-right: 5px solid #06a8ff;
+  transform: rotate(-135deg);
+  margin: -10px;
+}
+
+@media (max-width: 771px) {
+  .github-icon-nav {
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    border-radius: 80%;
+  }
+  .website-icon-nav {
+    height: 35px;
+    position: relative;
+    top: 5px;
+    right: 0px;
+    border-radius: 80%;
+  }
+  .arrow-nav-down {
+    position: absolute;
+    bottom: 45%;
+    right: 15%;
+  }
+  .arrow-nav-down:hover {
+    cursor: pointer;
+  }
+  .arrow-nav-down span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #06a8ff;
+    border-right: 5px solid #06a8ff;
+    transform: rotate(45deg);
+    margin: -10px;
+  }
+  .arrow-nav-up {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+  }
+  .arrow-nav-up:hover {
+    cursor: pointer;
+  }
+  .arrow-nav-up span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #06a8ff;
+    border-right: 5px solid #06a8ff;
+    transform: rotate(-135deg);
+    margin: -10px;
+  }
+}
