@@ -16,6 +16,13 @@
 a {
   text-decoration: none;
 }
+.container {
+  /* scroll-snap-type: y proximity; */
+}
+
+.child {
+  /* scroll-snap-align: start; */
+}
 
 .skills-div {
   display: flex;

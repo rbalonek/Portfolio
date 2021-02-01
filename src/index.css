@@ -17,6 +17,7 @@ code {
 html,
 body {
   /* margin: 0; */
+  /* scroll-snap-type: y proximity; */
 }
 body {
   /* min-height: 100vh;
@@ -24,4 +25,11 @@ body {
 }
 html {
   /* height: -webkit-fill-available; */
+}
+@media (max-width: 771px) {
+  html,
+  body {
+    /* margin: 0; */
+    /* scroll-snap-type: none; */
+  }
 }

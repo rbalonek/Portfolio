@@ -164,7 +164,7 @@
 .happy-stack-holder {
   position: absolute;
   bottom: 10%;
-  width: 100%;
+  width: 100vw;
 }
 @media (max-width: 730px) {
   .icon-img {

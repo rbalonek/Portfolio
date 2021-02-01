@@ -20,7 +20,36 @@ import Cherry from "./Components/Projects/Cherry/Cherry";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div class="container">
+        <section class="child">
+          <Header />
+        </section>
+        <section id="skills" class="child">
+          <Skills />
+        </section>
+        <StickyNavBar />
+        <section id="projects" class="child">
+          <div>
+            <HappySpace />
+          </div>
+        </section>
+        <section class="child">
+          <Cherry />
+        </section>
+        <section class="child">
+          <TrinityPlace />
+        </section>
+        <section class="child">
+          <RestaurantApp />
+        </section>
+        <section class="child" id="about">
+          <AboutMe />
+        </section>
+
+        <section class="child" id="contact">
+          <Footer />
+        </section>
+      </div>
     </div>
   );
 }
@@ -40,10 +69,10 @@ export default App;
 // </section>
 
 // <section id="projects">
-//   <HappySpace />
-//   <Cherry />
-//   <TrinityPlace />
-//   <RestaurantApp />
+// <HappySpace />
+// <Cherry />
+// <TrinityPlace />
+// <RestaurantApp />
 // </section>
 
 // <section id="about">
