@@ -27,7 +27,7 @@ export default function StickyNavBar() {
     var about = document.getElementById("about");
     zenscroll.to(about);
   };
-  const scrolContact = () => {
+  const scrollContact = () => {
     var contact = document.getElementById("contact");
     zenscroll.to(contact);
   };
@@ -74,7 +74,7 @@ export default function StickyNavBar() {
         <p className={aboutTextColor} onClick={scrollAbout}>
           About
         </p>
-        <p className={contactTextColor} onClick={scrolContact}>
+        <p className={contactTextColor} onClick={scrollContact}>
           Contact
         </p>
       </Fade>
