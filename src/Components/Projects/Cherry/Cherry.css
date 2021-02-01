@@ -50,9 +50,7 @@
 .show-text {
   display: flex;
 }
-.carousel-root {
-  width: 50%;
-}
+
 .about-holder {
   display: flex;
   justify-content: center;
