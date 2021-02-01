@@ -4,7 +4,12 @@
 .dark-mode {
   color: white;
 } */
-
+.name {
+  font-style: 1vw;
+}
+.title {
+  font-style: 0.5vw;
+}
 .img-animate {
   border-radius: 20%;
   width: 100px;
@@ -12,8 +17,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 70vh;
+  /* background-color: #282c34; */
+  background-color: black;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,36 +28,128 @@
   color: white;
   border: none;
   text-align: center;
+  width: 100%;
 }
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .animated-div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 10px;
+  bottom: 20%;
+  right: 3.5%;
+}
+
+.animated-hinge {
   position: absolute;
-  top: 30%;
+  /* top: 50%; */
+  /* left: 100px; */
+}
+.arrow {
+  position: absolute;
+  bottom: 10%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #06a8ff;
+  border-right: 5px solid #06a8ff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
 }
 
 /*               RESPONSIVE      */
 
 /* Larger computer screen height */
-@media (min-height: 850px) {
+@media (max-width: 850px) {
   .App-header {
-    min-height: 45vh;
+    /* background-color: #282c34; */
+    background-color: black;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
+  .container {
+    height: 250vh;
   }
   .animated-div {
-    top: 18%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 10px;
+    bottom: 6%;
+    right: 3.5%;
+  }
+  .arrow {
+    position: relative;
+    bottom: -520px;
+    left: 122vw;
+    transform: translate(-50%, -50%);
   }
 }
 
 /* First maj responsive issue */
-@media (max-width: 650px) {
+@media (max-width: 495px) {
+  /* .animated-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 10px;
+    bottom: 15%;
+    right: 3.5%;
+  } */
 }
 
 /* MY CELL PHONE SIZE */
 @media (max-width: 414px) {
   .App-header {
     /* background-color: #1f4faf; */
-    height: 20vh;
-    min-height: 48vh;
+    /* height: 120vh; */
+    /* min-height: 48vh; */
   }
-  .container {
+  /* .container {
     font-size: xx-small;
     contain: content;
   }
@@ -63,29 +161,34 @@
   .animated-div {
     position: relative;
     top: -100px;
-  }
+  } */
+  /* .arrow {
+    position: absolute;
+    bottom: 10%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+  } */
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .animated-div {
-    position: absolute;
-    /* top: 25%; */
+    /* position: absolute; */
   }
 }
 
 /* Iphone 6/7/8 CHECK Iphonex 375 */
 @media (max-width: 378px) {
-  .App-header {
+  /* .App-header {
     min-height: 60vh;
-  }
+  } */
 }
 
 /* Iphone 5/SE */
 @media (max-width: 320px) {
-  .animated-div {
+  /* .animated-div {
     top: -90px;
   }
   .App-header {
     min-height: 79vh;
-  }
+  } */
 }

@@ -1,8 +1,11 @@
 .about-me-text-div {
-  height: 25vh;
+  height: 100vh;
   color: aliceblue;
   text-align: center;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .p-text-about-me {
   font-size: larger;
