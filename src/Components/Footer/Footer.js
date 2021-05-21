@@ -34,7 +34,7 @@ export default function Footer() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1X7EtKoVqJQenhxTbU0nY5QA_Nbxy_wjN/view?usp=sharing"
+          href="https://drive.google.com/file/d/1vhdM4A0UaEBkQJpahC6ryOhWXzCpvqxq/view?usp=sharing"
         >
           <img
             className="footer-button-resume"
