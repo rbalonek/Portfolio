@@ -19,6 +19,10 @@ import Cherry from "./Components/Projects/Cherry/Cherry";
 import ProjectHeader from "./Components/Header/ProjectHeader/ProjectHeader";
 import Project from "./Components/Projects/Project/Project";
 
+import mernOne from "./assets/mern1.png";
+import mernTwo from "./assets/mern2.png";
+import mernThree from "./assets/mern3.png";
+
 function App() {
   return (
     <div className="App">
@@ -182,7 +186,7 @@ function App() {
             <Project
               id={"opera-search"}
               navUp={"restaurant-app"}
-              navDown={"about"}
+              navDown={"mern"}
               github={"https://github.com/rbalonek/opera-singer-search"}
               title={"Opera Singer Search"}
               website={"https://opera-singer-search.netlify.app/operas"}
@@ -204,6 +208,34 @@ function App() {
                 "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg",
                 "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/ruby-plain-wordmark.b065b718_pxbhrj.svg",
                 "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+              ]}
+            />
+          </div>
+
+          <div style={{ position: "relative" }}>
+            <Project
+              id={"mern"}
+              navUp={"opera-search"}
+              navDown={"about"}
+              github={"https://github.com/rbalonek/mern-bootstrap-project"}
+              title={"MERN Bootstrap"}
+              website={
+                "https://mern-bootstrap-portfolio.netlify.app/https://opera-singer-search.netlify.app/operas"
+              }
+              carousel={[mernOne, mernTwo, mernThree]}
+              text={[
+                "I was practicing my MERN stack for a job interview and put this together",
+                "It's a super simple product displaying app with Bootstrap design.",
+                "I included a search and a sort-by feature as well as making a mock login for CRUD on the products",
+              ]}
+              stack={[
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/mongodb-plain-wordmark.07c92838_rgtxc3.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512572/Portfolio%20Pics/express-original-wordmark.f1a0b0e9_pom0ic.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/git-original-wordmark.66e06c06_s7bavw.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/postman-logo_rr22mr.png",
               ]}
             />
           </div>
