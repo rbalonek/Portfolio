@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 
 import { Zoom } from "react-awesome-reveal";
+import Resume from "../../assets/Balonek Resume Software Engineer.pdf";
 
 export default function Footer() {
   return (
@@ -32,14 +33,15 @@ export default function Footer() {
       </Zoom>
       <Zoom>
         <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1vhdM4A0UaEBkQJpahC6ryOhWXzCpvqxq/view?usp=sharing"
+          // target="_blank"
+          // rel="noopener noreferrer"
+          download
+          href={Resume}
         >
           <img
             className="footer-button-resume"
             src="https://e7.pngegg.com/pngimages/265/802/png-clipart-resume-computer-icons-curriculum-vitae-resume-icon-template-angle.png"
-            alt=""
+            alt="res-btn"
           />
         </a>
       </Zoom>
