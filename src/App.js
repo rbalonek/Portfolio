@@ -125,7 +125,7 @@ function App() {
             <Project
               id={"trinity"}
               navUp={"cherry"}
-              navDown={"restaurant-app"}
+              navDown={"reserve-table"}
               github={"https://github.com/rbalonek/trinity-place-shelter"}
               title={"Trinity Place Shelter"}
               website={"https://trinity-place-shelter.netlify.app/"}
@@ -154,8 +154,38 @@ function App() {
 
           <div style={{ position: "relative" }}>
             <Project
-              id={"restaurant-app"}
+              id={"reserve-table"}
               navUp={"trinity"}
+              navDown={"restaurant-app"}
+              github={"https://github.com/rbalonek/reserve-table-app"}
+              title={"Reserve Table"}
+              website={"https://reserve-table.netlify.app/"}
+              carousel={[
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626133973/Projects/Table%20Reserve%20ROR/TableReserve1_all5qj.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626133971/Projects/Table%20Reserve%20ROR/TableReserve3_pzoftb.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626133970/Projects/Table%20Reserve%20ROR/TableReserve2_mgyyw0.png",
+              ]}
+              text={[
+                "I had a client who needed a table reservation system for a party.",
+                "He wanted a clean and simple design and a simple back end so he could delete guests if needed.",
+                "This app is the prototype of the site I made for him.",
+              ]}
+              stack={[
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/heroku-plain-wordmark.6fd6c3b7_pgrfhc.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/rails-logo_f3zkrq.png",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/ruby-plain-wordmark.b065b718_pxbhrj.svg",
+                "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+              ]}
+            />
+          </div>
+
+          <div style={{ position: "relative" }}>
+            <Project
+              id={"restaurant-app"}
+              navUp={"reserve-table"}
               navDown={"opera-search"}
               github={"https://github.com/rbalonek/Restaurant-App"}
               title={"Restaurant App"}
