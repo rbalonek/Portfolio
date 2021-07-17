@@ -5,7 +5,7 @@ import Native from "../../../assets/reactNative.png";
 export default function Stack(props) {
   const imgArray = props.images;
 
-  console.log(imgArray);
+  // console.log(imgArray);
   return (
     <div className="restaurant-stack-container">
       <div className="restaurant-stack-imgs">
