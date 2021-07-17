@@ -5,6 +5,9 @@ import { Slide, Fade, AttentionSeeker } from "react-awesome-reveal";
 import Static from "../../assets/tvnoise.gif";
 import zenscroll from "zenscroll";
 
+import Wix from "../../assets/wix.png";
+import SquareSpace from "../../assets/800px-Squarespace_Logo_2019.png";
+
 export default function Skills() {
   const clickedArrow = () => {
     var projects = document.getElementById("projects");
@@ -18,9 +21,24 @@ export default function Skills() {
             <div class="cloud"></div>
           </Slide>
         </div>
+
+        <div className="cloud-icon-div-top">
+          <Fade
+            delay={1800}
+            triggerOnce={true}
+            cascade
+            className="cloud-icon-div-top"
+            childClassName="cloud-img-top"
+          >
+            <img className="cloud-img-top" alt="Heroku" src={Wix}></img>
+
+            <img className="cloud-img-top" alt="AWS" src={SquareSpace}></img>
+          </Fade>
+        </div>
+
         <div className="cloud-icon-div">
           <Fade
-            delay={1000}
+            delay={1700}
             triggerOnce={true}
             cascade
             className="cloud-icon-div"
