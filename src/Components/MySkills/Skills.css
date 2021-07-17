@@ -32,7 +32,8 @@
   width: 266px;
   /* width: 40vh; */
   height: 89px;
-  background: #eceff1;
+  /* background: #eceff1; */
+  background: white;
   box-shadow: 10px 10px rgb(0 0 0 / 20%);
   border-radius: 100px;
 }
@@ -62,7 +63,15 @@
 .cloud-icon-div {
   position: relative;
   text-align: center;
-  top: -50px;
+  top: -110px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.cloud-icon-div-two {
+  position: relative;
+  text-align: center;
+  top: -110px;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -74,6 +83,9 @@
 
 .cloud-img {
   height: 35px;
+}
+.extra-height {
+  height: 60px;
 }
 
 .cloud-img,
