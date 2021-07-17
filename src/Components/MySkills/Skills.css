@@ -32,7 +32,8 @@
   width: 266px;
   /* width: 40vh; */
   height: 89px;
-  background: #eceff1;
+  /* background: #eceff1; */
+  background: white;
   box-shadow: 10px 10px rgb(0 0 0 / 20%);
   border-radius: 100px;
 }
@@ -62,10 +63,21 @@
 .cloud-icon-div {
   position: relative;
   text-align: center;
-  top: -50px;
+  top: -115px;
   display: flex;
   width: 100%;
   justify-content: center;
+}
+.cloud-icon-div-top {
+  position: relative;
+  text-align: center;
+  top: -115px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.cloud-img-top {
+  height: 60px;
 }
 .skills-img-wordpress {
   border-radius: 60%;
